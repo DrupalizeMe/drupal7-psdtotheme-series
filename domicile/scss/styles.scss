@@ -5,7 +5,10 @@
  */
 
 /* Import SASS variables, mixins, etc */
- @import "init";
+@import "init";
 
 /* Import base rules for HTML elements */
- @import "base";
+@import "base";
+
+/* Import layout rules based on 960gs */
+@import "layout";
