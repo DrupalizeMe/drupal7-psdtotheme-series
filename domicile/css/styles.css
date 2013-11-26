@@ -1,0 +1,54 @@
+/**
+ * @file
+ * Styles are organized using the SMACSS technique. @see http://smacss.com/book/
+ *
+ */
+/* Import SASS variables, mixins, etc */
+/* Import base rules for HTML elements */
+/**
+ * @file
+ * Base.css is used as an alternative to CSS resets for this theme.
+ *
+ * Selectors should never be more specific than an HTML element. Selectors
+ * with a higher specificity belong in one of the component files.
+ *
+ */
+/* Font Settings */
+/* line 12, ../scss/_base.scss */
+a {
+  color: #336666;
+  text-decoration: none;
+}
+
+/* line 17, ../scss/_base.scss */
+a:link {
+  font-weight: bold;
+}
+
+/* line 21, ../scss/_base.scss */
+a:hover, a:active, a:focus {
+  text-decoration: underline;
+}
+
+/* line 25, ../scss/_base.scss */
+a:visited {
+  font-weight: normal;
+}
+
+/* line 29, ../scss/_base.scss */
+h1, h2, h3, h4, h5, h6 {
+  margin-bottom: 0;
+}
+
+/* line 33, ../scss/_base.scss */
+h1 {
+  color: #999999;
+  margin-top: 10px;
+}
+
+/* line 38, ../scss/_base.scss */
+p {
+  color: #666666;
+  line-height: 1.75;
+  margin-bottom: 10px;
+}

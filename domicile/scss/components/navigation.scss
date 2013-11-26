@@ -1,0 +1,24 @@
+/**
+ * @file
+ * Navigation.css
+ *
+ * The components describing navigation and their variants. Often appears
+ * in the left-most sidebar.
+ *
+ */
+
+@import "init";
+
+#nav {
+  .primary {
+    color: $accent1st;
+  }
+
+  .secondary {
+    color: $accent2nd;
+  }
+
+  .secondary--secondtier {
+    text-decoration: underline;
+  }
+}

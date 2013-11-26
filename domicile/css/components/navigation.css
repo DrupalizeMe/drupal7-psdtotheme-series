@@ -1,0 +1,20 @@
+/**
+ * @file
+ * Navigation.css
+ *
+ * The components describing navigation and their variants. Often appears
+ * in the left-most sidebar.
+ *
+ */
+/* line 13, ../../scss/components/navigation.scss */
+#nav .primary {
+  color: #336666;
+}
+/* line 17, ../../scss/components/navigation.scss */
+#nav .secondary {
+  color: #996633;
+}
+/* line 21, ../../scss/components/navigation.scss */
+#nav .secondary--secondtier {
+  text-decoration: underline;
+}
