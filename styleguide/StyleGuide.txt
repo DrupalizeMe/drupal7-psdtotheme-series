@@ -1,0 +1,100 @@
+Style Guide
+
+Layout Rules
+---------
+The shape of your web site, including the number of grid columns for each area.
+--------
+
+- Banner Area -- large image - 12 grid columns
+- Navigation area -- left column - 2 grid columns
+- Featured area -- center column - 4 grid columns
+- Content area -- right column - 6 grid columns
+- Copyright area -- footer - 12 grid columns
+
+Reference:
+layout-wireframe.png
+layout-gridcols.png
+
+
+Base Rules
+-----------
+HTML element re-writes. For example: font colours and link underlines.
+Consistent from page-to-page.
+-----------
+
+- darker gray -- #666666 -- most text "default"
+- lighter gray -- #999999 -- headings
+- green ish -- #336666 -- primary accent colour
+- brownish -- #996633 -- secondary accent colour
+
+- font styling: mostly serif
+- font styling on paragraphs: sans serif
+- links: not underlined
+- secondary navigation: underlined
+
+Reference:
+base-colours.png
+
+
+
+Component Rules
+----------------
+Furniture-like. Anything that i can take a screen shot of / enclose in a "box".
+-----------------
+
+1. Banner
+Image which uses the full width of the design (12 columns)
+Sample design: component-banner.png
+
+2. Navigation
+"At home" - image which needs to be extracted from the design (2 columns)
+Sample design: component-nav-home.png
+
+Primary Navigation (2 columns)
+colour: green ish
+Sample design: component-nav-primary.png
+link underline: none
+
+Secondary Navigation (2 columns)
+colour: brown ish
+Sample design: component-nav-secondary.png
+link underline: none
+2nd tier link underline: solid underline
+
+3. Featured (4 columns) - Quotes and images
+primary decoration
+image of a plate + headings
+Sample design: component-feature-decoration-primary.png
+
+text-based quote
+- uses secondary accent colour; font-size: 160%;
+- uses main text colour; font-size: 130%; font-style: italic
+Sample design: component-feature-quote.png
+
+secondary decoration
+smaller plate
+Sample design: component-feature-decoration-secondary.png
+
+4. Content (6 columns)
+
+Introduction
+- serif font
+- full width of the content column
+- first paragraph uses primary highlight colour
+- all subsequent paragraphs use default text colour, but are italicized
+Sample design: component-content-intro.png
+
+River of News (2 items x 3 columns each)
+- sans-serif font
+- title and first paragraph are secondary highlight colour
+- includes image floated to the top left
+- remainder of the text is default text
+- "read more" link is primary highlight colour (default for links)
+Sample design: component-content-news.png
+
+
+5. Copyright (12 columns)
+- footer for the site
+- text is primary highlight colour
+- dotted top border in primary highlight colour
+Sample design: component-copyright.png

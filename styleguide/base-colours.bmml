@@ -1,0 +1,33 @@
+<mockup version="1.0" skin="sketch" fontFace="Balsamiq Sans" measuredW="377" measuredH="265" mockupW="279" mockupH="211">
+  <controls>
+    <control controlID="1" controlTypeID="com.balsamiq.mockups::Button" x="98" y="112" w="-1" h="-1" measuredW="206" measuredH="27" zOrder="0" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>6710886</color>
+        <text>Default%20-%20Dark%20Gray%20-%20%23666666</text>
+      </controlProperties>
+    </control>
+    <control controlID="2" controlTypeID="com.balsamiq.mockups::Button" x="98" y="154" w="-1" h="-1" measuredW="219" measuredH="27" zOrder="1" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>10066329</color>
+        <text>Headings%20-%20Light%20Gray%20-%20%23999999</text>
+      </controlProperties>
+    </control>
+    <control controlID="3" controlTypeID="com.balsamiq.mockups::Button" x="98" y="196" w="-1" h="-1" measuredW="231" measuredH="27" zOrder="2" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>3368550</color>
+        <text>Primary%20Accent%20-%20Green%20-%20%23336666</text>
+      </controlProperties>
+    </control>
+    <control controlID="4" controlTypeID="com.balsamiq.mockups::Button" x="98" y="238" w="-1" h="-1" measuredW="248" measuredH="27" zOrder="3" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>10053171</color>
+        <text>Secondary%20Accent%20-%20Brown%20-%20%23996633</text>
+      </controlProperties>
+    </control>
+    <control controlID="5" controlTypeID="com.balsamiq.mockups::Title" x="98" y="54" w="-1" h="-1" measuredW="279" measuredH="43" zOrder="4" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Default%20Colours</text>
+      </controlProperties>
+    </control>
+  </controls>
+</mockup>
