@@ -1,0 +1,54 @@
+/**
+ * @file
+ * News.css
+ *
+ * The components describing river of news. Typically appears in the right-
+ * most sidebar on the home page of the site.
+ *
+ */
+
+@import "init";
+
+.news {
+  margin-top: 40px;
+
+  .block:first-child p {
+    color: $default;
+    font-style: italic;
+    font-family: serif;
+    line-height: 2;
+
+    :first-child {
+      color: $accent1st;
+      font-style: normal;
+    }
+  }
+
+  .node {
+    float: left;
+    font-size: 90%;
+    padding-right: 4%;
+    width: 45%;
+
+    h2 a {
+      color: $accent2nd;
+      text-transform: uppercase;
+    }
+
+    p:first-child {
+      color: $accent2nd;
+      font-weight: bold;
+    }
+
+    img {
+      float: left;
+      padding: 0 10px 5px 0;
+      width: 60px;
+    }
+  }
+}
+
+// Use Drupal-specific selectors
+.front #content {
+  @extend .news;
+}

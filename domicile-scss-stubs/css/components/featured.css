@@ -1,0 +1,33 @@
+/**
+ * @file
+ * Featured.css
+ *
+ * The components describing feature highlights and their variants. 
+ * Often appears in the center column.
+ *
+ */
+/* line 12, ../../scss/components/featured.scss */
+#featured {
+  font-family: serif;
+}
+/* line 15, ../../scss/components/featured.scss */
+#featured blockquote {
+  text-align: center;
+}
+/* line 19, ../../scss/components/featured.scss */
+#featured .decoration {
+  display: block;
+  margin-bottom: 30px;
+  text-align: center;
+}
+/* line 25, ../../scss/components/featured.scss */
+#featured .large-bold p {
+  color: #996633;
+  font-size: 160%;
+}
+/* line 30, ../../scss/components/featured.scss */
+#featured .medium-ital p {
+  color: #999999;
+  font-size: 130%;
+  font-style: italic;
+}

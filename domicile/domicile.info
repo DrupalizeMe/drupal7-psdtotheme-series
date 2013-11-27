@@ -1,0 +1,5 @@
+name = Domicile 
+description = A three-column design by Design House.
+screenshot = screenshot.png 
+core = 7.x 
+engine = phptemplate 
