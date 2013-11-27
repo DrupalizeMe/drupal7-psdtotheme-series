@@ -1,0 +1,57 @@
+Build Guide
+
+Theme Regions 
+-----------------------
+theme .info file
+page.tpl.php
+-----------------------
+- Banner Area -- banner
+- Navigation area -- nav
+- Featured area -- featured
+- Content area -- content
+- Copyright area -- copyright
+
+1. Banner
+Image which uses the full width of the design (12 columns)
+-- hard code in page.tpl.php because it will not change from page to page
+
+
+2. Navigation
+"At home" - image which needs to be extracted from the design (2 columns)
+-- hard coded into page.tpl.php because it does not change.
+
+
+Primary Navigation
+-- menu used to store the main links in our site.
+
+
+Secondary Navigation
+-- 2nd menu used to store links in our site.
+-- sections / nested links should be expanded by default
+
+
+3. Featured 
+image of a plate + headings
+-- hard coded into page.tpl.php because it does not change.
+
+text-based quote
+-- build using a block. ensure the CSS class names match the CSS stub class names
+
+secondary decoration
+smaller plate
+-- hard coded into page.tpl.php because it does not change.
+
+4. Content (6 columns)
+
+Introduction
+-- build using a Drupal block; ensure class names match what is in CSS stubs
+
+
+River of News (2 items x 3 columns each)
+-- image styles; check the design for exact dimensions of these images
+-- ensure only two stories appear on the front page
+
+
+5. Copyright (12 columns)
+-- build a block to contain the text of the copyright. allows for easier
+editing when the year rolls over.
