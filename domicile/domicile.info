@@ -5,6 +5,7 @@ core = 7.x
 engine = phptemplate
 
 stylesheets[all][] = css/styles.css
+stylesheets[all][] = css/text.css
 stylesheets[all][] = css/components/content.css
 stylesheets[all][] = css/components/copyright.css
 stylesheets[all][] = css/components/featured.css
