@@ -1,0 +1,16 @@
+/**
+ * @file
+ * Copyright.css
+ *
+ * The components describing the copyright block. Appears at the bottom of pages.
+ *
+ */
+/* line 11, ../../scss/components/copyright.scss */
+#copyright {
+  border-top: 2px dotted #336666;
+  color: #336666;
+  font-size: 80%;
+  margin-top: 30px;
+  padding-top: 10px;
+  text-align: center;
+}

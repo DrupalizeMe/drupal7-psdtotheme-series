@@ -2,4 +2,11 @@ name = Domicile
 description = A three-column design by Design House.
 screenshot = screenshot.png 
 core = 7.x 
-engine = phptemplate 
+engine = phptemplate
+
+stylesheets[all][] = css/styles.css
+stylesheets[all][] = css/components/content.css
+stylesheets[all][] = css/components/copyright.css
+stylesheets[all][] = css/components/featured.css
+stylesheets[all][] = css/components/navigation.css
+stylesheets[all][] = css/components/news.css
