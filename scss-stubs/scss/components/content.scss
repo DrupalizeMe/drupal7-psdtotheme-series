@@ -1,0 +1,28 @@
+/**
+ * @file
+ * Content.css
+ *
+ * The components describing primary content. Typically appears in the right-
+ * most sidebar.
+ *
+ */
+
+@import "init";
+
+#content {
+
+  h1 {
+    color: $heading;
+    margin-top: 10px;
+  }
+
+  li.node-readmore {
+    float: right;
+    margin-top: -10px;
+    text-transform: uppercase;
+  }
+  
+  .node p {
+    line-height: 1.75;
+  }
+}
