@@ -17,10 +17,10 @@ $ninesixty-columns: 12;
   #nav {
     @include grid(2);
   }
-  #featured {
+  #feature {
     @include grid(4);
   }
-  #main-content {
+  .main-content {
     @include grid(6);
   }
 }

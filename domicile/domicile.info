@@ -11,3 +11,8 @@ stylesheets[all][] = css/components/copyright.css
 stylesheets[all][] = css/components/featured.css
 stylesheets[all][] = css/components/navigation.css
 stylesheets[all][] = css/components/news.css
+
+regions[featured] = Featured - center column
+regions[nav] = Nav - left column
+regions[copyright] = Copyright - footer
+regions[content] = Content

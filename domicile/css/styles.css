@@ -142,7 +142,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   width: 140px;
 }
 /* line 20, ../scss/_layout.scss */
-.fullwidth #featured {
+.fullwidth #feature {
   display: inline;
   float: left;
   margin-left: 10px;
@@ -150,7 +150,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   width: 300px;
 }
 /* line 23, ../scss/_layout.scss */
-.fullwidth #main-content {
+.fullwidth .main-content {
   display: inline;
   float: left;
   margin-left: 10px;
