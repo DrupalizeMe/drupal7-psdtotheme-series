@@ -1,5 +1,5 @@
 <div class="page fullwidth">
-  <div id="banner" class="fullwidth"><img alt=" " src="<?php print $base_path . $directory; ?>/images/domicile-banner.jpg" /></div>
+  <div id="banner" class="fullwidth"><img alt=" " src="<?php print $base_path . $directory; ?>/images/domicile-banner.png" /></div>
   <div id="main" class="fullwidth clearfix">
     <div id="nav" class="sidebar--nav"> 
  <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home" id="logo">
