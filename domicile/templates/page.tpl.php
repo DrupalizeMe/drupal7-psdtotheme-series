@@ -1,17 +1,17 @@
 <div class="page fullwidth">
-  <div id="banner" class="fullwidth"> banner </div>
+  <div id="banner" class="fullwidth"><img alt=" " src="<?php print $base_path . $directory; ?>/images/domicile-banner.jpg" /></div>
   <div id="main" class="fullwidth clearfix">
     <div id="nav" class="sidebar--nav"> 
  <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home" id="logo">
-<IMG></a>
+<img alt=" " src="<?php print $base_path . $directory; ?>/images/at-home.jpg" /></a>
 
     <?php print render($page['nav']); ?>
 
     </div>
     <div id="feature" class="sidebar--feature">
-      <div class="decoration">Big plate</div>
+      <div class="decoration"><img alt=" " src="<?php print $base_path . $directory; ?>/images/big-plate.jpg" /></div>
       <?php print render($page['featured']); ?>
-      <div class="decoration">Small plate</div>
+      <div class="decoration"><img alt=" " src="<?php print $base_path . $directory; ?>/images/little-plate.jpg" /></div>
     </div>
     <div id="content" class="main-content">
 
