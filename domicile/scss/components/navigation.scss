@@ -17,7 +17,7 @@
 }
 
 /* Variant: Primary navigation */
-#nav .primary {
+.navigation--primary {
   a {
     color: $accent1st;
   }
@@ -36,8 +36,12 @@
   }
 }
 
+#block-menu-devel-frinosiwu {
+  @extend .navigation--primary;  
+}
+
 /* Variant: Secondary navigation */
-#nav .secondary {
+.navigation--secondary {
   a {
     color: $accent2nd;
   }
@@ -46,7 +50,7 @@
     border-top: none;
   }
 
-  ul.menu li {
+  ul.menu li.leaf {
     border-bottom: none;
     list-style-image: none;
     list-style-type: none;
@@ -59,4 +63,8 @@
   .secondary--secondtier a {
     text-decoration: underline;
   }
+}
+
+#block-system-main-menu {
+  @extend .navigation--secondary;
 }

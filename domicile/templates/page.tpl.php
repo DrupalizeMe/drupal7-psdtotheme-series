@@ -13,10 +13,9 @@
       <?php print render($page['featured']); ?>
       <div class="decoration"><img alt=" " src="<?php print $base_path . $directory; ?>/images/little-plate.jpg" /></div>
     </div>
-    <div id="content" class="main-content">
+    <div id="content" class="content--main">
 
          <?php print $messages; ?>
-         <?php if ($page['highlighted']): ?><div id="highlighted"><?php print render($page['highlighted']); ?></div><?php endif; ?>
 <a id="main-content"></a>
          <?php print render($title_prefix); ?>
          <?php if ($title): ?><h1 class="title" id="page-title"><?php print $title; ?></h1><?php endif; ?>
@@ -30,5 +29,5 @@
     </div>
   </div>
 
-  <div id="copyright" class="fullwidth clearfix"> <?php print render($page['copyright']); ?> </div>
+  <div id="copyright" class="fullwidth"> <?php print render($page['copyright']); ?> </div>
 </div>

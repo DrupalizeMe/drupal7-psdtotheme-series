@@ -20,7 +20,7 @@ $ninesixty-columns: 12;
   #feature {
     @include grid(4);
   }
-  .main-content {
+  .content--main {
     @include grid(6);
   }
 }

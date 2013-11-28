@@ -150,7 +150,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   width: 300px;
 }
 /* line 23, ../scss/_layout.scss */
-.fullwidth .main-content {
+.fullwidth .content--main {
   display: inline;
   float: left;
   margin-left: 10px;

@@ -16,15 +16,15 @@
 
 /* Variant: Primary navigation */
 /* line 21, ../../scss/components/navigation.scss */
-#nav .primary a {
+.navigation--primary a, #block-menu-devel-frinosiwu a {
   color: #336666;
 }
 /* line 25, ../../scss/components/navigation.scss */
-#nav .primary ul.menu {
+.navigation--primary ul.menu, #block-menu-devel-frinosiwu ul.menu {
   border-top: 2px dotted #336666;
 }
 /* line 29, ../../scss/components/navigation.scss */
-#nav .primary ul.menu li {
+.navigation--primary ul.menu li, #block-menu-devel-frinosiwu ul.menu li {
   border-bottom: 2px dotted #336666;
   list-style-image: none;
   list-style-type: none;
@@ -34,16 +34,16 @@
 }
 
 /* Variant: Secondary navigation */
-/* line 41, ../../scss/components/navigation.scss */
-#nav .secondary a {
+/* line 45, ../../scss/components/navigation.scss */
+.navigation--secondary a, #block-system-main-menu a {
   color: #996633;
 }
-/* line 45, ../../scss/components/navigation.scss */
-#nav .secondary ul.menu {
+/* line 49, ../../scss/components/navigation.scss */
+.navigation--secondary ul.menu, #block-system-main-menu ul.menu {
   border-top: none;
 }
-/* line 49, ../../scss/components/navigation.scss */
-#nav .secondary ul.menu li {
+/* line 53, ../../scss/components/navigation.scss */
+.navigation--secondary ul.menu li.leaf, #block-system-main-menu ul.menu li.leaf {
   border-bottom: none;
   list-style-image: none;
   list-style-type: none;
@@ -52,7 +52,7 @@
   text-align: center;
   text-transform: uppercase;
 }
-/* line 59, ../../scss/components/navigation.scss */
-#nav .secondary .secondary--secondtier a {
+/* line 63, ../../scss/components/navigation.scss */
+.navigation--secondary .secondary--secondtier a, #block-system-main-menu .secondary--secondtier a {
   text-decoration: underline;
 }

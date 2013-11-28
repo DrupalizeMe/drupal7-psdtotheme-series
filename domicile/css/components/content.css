@@ -7,17 +7,17 @@
  *
  */
 /* line 14, ../../scss/components/content.scss */
-#content h1 {
+.content--main h1 {
   color: #999999;
   margin-top: 10px;
 }
 /* line 19, ../../scss/components/content.scss */
-#content li.node-readmore {
+.content--main li.node-readmore {
   float: right;
   margin-top: -10px;
   text-transform: uppercase;
 }
 /* line 25, ../../scss/components/content.scss */
-#content .node p {
+.content--main .node p {
   line-height: 1.75;
 }
