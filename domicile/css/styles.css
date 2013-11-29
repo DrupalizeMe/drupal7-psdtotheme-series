@@ -126,14 +126,15 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   width: 960px;
 }
 /* line 14, ../scss/_layout.scss */
-.fullwidth #banner, .fullwidth #copyright {
+.fullwidth #banner {
   display: inline;
   float: left;
   margin-left: 10px;
   margin-right: 10px;
   width: 940px;
+  height: 174px;
 }
-/* line 17, ../scss/_layout.scss */
+/* line 18, ../scss/_layout.scss */
 .fullwidth #nav {
   display: inline;
   float: left;
@@ -141,19 +142,27 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   margin-right: 10px;
   width: 140px;
 }
-/* line 20, ../scss/_layout.scss */
-.fullwidth #feature {
+/* line 21, ../scss/_layout.scss */
+.fullwidth #featured {
   display: inline;
   float: left;
   margin-left: 10px;
   margin-right: 10px;
   width: 300px;
 }
-/* line 23, ../scss/_layout.scss */
+/* line 24, ../scss/_layout.scss */
 .fullwidth .content--main {
   display: inline;
   float: left;
   margin-left: 10px;
   margin-right: 10px;
   width: 460px;
+}
+/* line 27, ../scss/_layout.scss */
+.fullwidth #copyright {
+  display: inline;
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 940px;
 }

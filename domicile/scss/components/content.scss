@@ -15,14 +15,26 @@
     color: $heading;
     margin-top: 10px;
   }
-
-  li.node-readmore {
-    float: right;
-    margin-top: -10px;
-    text-transform: uppercase;
-  }
   
   .node p {
     line-height: 1.75;
+    margin-bottom: 0.5em;
+  }
+
+  .block:first-child {
+    margin-bottom: 40px;
+    p {
+      color: $default;
+      font-size: 125%;
+      font-family: $serif;
+      font-style: italic;
+      line-height: 2;
+      margin-bottom: 0.25em;
+    }
+
+    p:first-child {
+      color: $accent1st;
+      font-style: normal;
+    }
   }
 }

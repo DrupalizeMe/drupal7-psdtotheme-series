@@ -10,7 +10,7 @@
 @import "init";
 
 #featured {
-  font-family: serif;
+  font-family: $serif;
 
   blockquote {
     text-align: center;
@@ -24,12 +24,14 @@
 
   .large-bold p {
     color: $accent2nd;
-    font-size: 160%;
+    font-size: 210%;
+    font-weight: lighter;
   }
 
   .medium-ital p {
     color: $heading;
-    font-size: 130%;
+    font-size: 160%;
     font-style: italic;
+    font-weight: lighter;
   }
 }

@@ -11,16 +11,20 @@ $ninesixty-columns: 12;
 
 .fullwidth {
   @include grid-container;
-  #banner, #copyright {
+  #banner {
     @include grid(12);
+    height: 174px;
   }
   #nav {
     @include grid(2);
   }
-  #feature {
+  #featured {
     @include grid(4);
   }
   .content--main {
     @include grid(6);
+  }
+  #copyright {
+    @include grid(12);
   }
 }

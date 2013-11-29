@@ -10,16 +10,19 @@
 @import "init";
 
 /* Defaults for all navigation */
-#nav {
+/* Defined as a mixin to decrease specificity issues. */
+@mixin nav {
   font-size: 110%;
-  font-family: serif;
+  font-family: $serif;
   text-decoration: none;
 }
 
 /* Variant: Primary navigation */
 .navigation--primary {
+  @include nav;
   a {
     color: $accent1st;
+    font-weight: normal;
   }
 
   ul.menu {
@@ -42,15 +45,17 @@
 
 /* Variant: Secondary navigation */
 .navigation--secondary {
+  @include nav;
   a {
     color: $accent2nd;
+    font-weight: normal;
   }
 
   ul.menu {
     border-top: none;
   }
 
-  ul.menu li.leaf {
+  ul.menu li {
     border-bottom: none;
     list-style-image: none;
     list-style-type: none;
@@ -60,8 +65,38 @@
     text-transform: uppercase;
   }
 
-  .secondary--secondtier a {
-    text-decoration: underline;
+  li.expanded {
+    list-style-image: none;
+    list-style-type: none;
+    text-align: center;
+    text-transform: uppercase;
+
+    li {
+      font-family: $sansserif;
+      font-size: 70%;
+      padding: 0;
+      text-transform: none;
+    }
+
+    li:after {
+      color: $accent2nd;
+      content: "~";
+      display: block;
+      text-align: center;
+    }
+    
+    li.first:before {
+      color: $accent2nd;
+      content: "~";
+      display: block;
+      text-align: center; 
+    }
+    
+    .menu a {
+      display: block;
+      padding: 3px 0;
+      text-decoration: underline;
+    }
   }
 }
 
