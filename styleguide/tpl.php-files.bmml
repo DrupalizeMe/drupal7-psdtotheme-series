@@ -1,0 +1,101 @@
+<mockup version="1.0" skin="sketch" fontFace="Balsamiq Sans" measuredW="573" measuredH="466" mockupW="482" mockupH="400">
+  <controls>
+    <control controlID="0" controlTypeID="com.balsamiq.mockups::BrowserWindow" x="91" y="66" w="482" h="400" measuredW="450" measuredH="400" zOrder="0" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>65535</color>
+        <text>Drupal%20Theme%20Files%0Ahttp%3A//drupal-theme-files</text>
+      </controlProperties>
+    </control>
+    <control controlID="2" controlTypeID="com.balsamiq.mockups::Label" x="102" y="140" w="-1" h="-1" measuredW="66" measuredH="21" zOrder="1" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>html.tpl.php</text>
+      </controlProperties>
+    </control>
+    <control controlID="15" controlTypeID="__group__" x="112" y="186" w="432" h="146" measuredW="432" measuredH="146" zOrder="5" locked="false" isInGroup="-1">
+      <groupChildrenDescriptors>
+        <control controlID="0" controlTypeID="com.balsamiq.mockups::FieldSet" x="225" y="6" w="207" h="68" measuredW="200" measuredH="170" zOrder="0" locked="false" isInGroup="15">
+          <controlProperties>
+            <color>16370588</color>
+            <text>block.tpl.php</text>
+          </controlProperties>
+        </control>
+        <control controlID="1" controlTypeID="com.balsamiq.mockups::FieldSet" x="2" y="0" w="91" h="74" measuredW="200" measuredH="170" zOrder="1" locked="false" isInGroup="15">
+          <controlProperties>
+            <color>16370588</color>
+            <text>block.tpl.php</text>
+          </controlProperties>
+        </control>
+        <control controlID="2" controlTypeID="com.balsamiq.mockups::FieldSet" x="0" y="72" w="91" h="74" measuredW="200" measuredH="170" zOrder="2" locked="false" isInGroup="15">
+          <controlProperties>
+            <color>16370588</color>
+            <text>block.tpl.php</text>
+          </controlProperties>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="16" controlTypeID="__group__" x="338" y="258" w="206" h="120" measuredW="206" measuredH="120" zOrder="4" locked="false" isInGroup="-1">
+      <groupChildrenDescriptors>
+        <control controlID="0" controlTypeID="com.balsamiq.mockups::FieldSet" x="0" y="1" w="105" h="119" measuredW="200" measuredH="170" zOrder="0" locked="false" isInGroup="16">
+          <controlProperties>
+            <color>11982760</color>
+            <text>node.tpl.php</text>
+          </controlProperties>
+        </control>
+        <control controlID="1" controlTypeID="com.balsamiq.mockups::FieldSet" x="111" y="0" w="95" h="120" measuredW="200" measuredH="170" zOrder="1" locked="false" isInGroup="16">
+          <controlProperties>
+            <color>11982760</color>
+            <text>node.tpl.php</text>
+          </controlProperties>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="17" controlTypeID="__group__" x="112" y="173" w="441" h="243" measuredW="441" measuredH="243" zOrder="3" locked="false" isInGroup="-1">
+      <groupChildrenDescriptors>
+        <control controlID="0" controlTypeID="com.balsamiq.mockups::FieldSet" x="0" y="0" w="96" h="214" measuredW="200" measuredH="170" zOrder="0" locked="false" isInGroup="17">
+          <controlProperties>
+            <color>16770457</color>
+            <text>region.tpl.php</text>
+          </controlProperties>
+        </control>
+        <control controlID="1" controlTypeID="com.balsamiq.mockups::FieldSet" x="96" y="83" w="127" h="83" measuredW="200" measuredH="170" zOrder="1" locked="false" isInGroup="17">
+          <controlProperties>
+            <color>16770457</color>
+            <text>region.tpl.php</text>
+          </controlProperties>
+        </control>
+        <control controlID="2" controlTypeID="com.balsamiq.mockups::FieldSet" x="223" y="4" w="218" h="206" measuredW="200" measuredH="170" zOrder="2" locked="false" isInGroup="17">
+          <controlProperties>
+            <color>16770457</color>
+            <text>region.tpl.php</text>
+          </controlProperties>
+        </control>
+        <control controlID="3" controlTypeID="com.balsamiq.mockups::FieldSet" x="0" y="214" w="418" h="29" measuredW="200" measuredH="170" zOrder="3" locked="false" isInGroup="17">
+          <controlProperties>
+            <color>16770457</color>
+            <text>region.tpl.php</text>
+          </controlProperties>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="18" controlTypeID="__group__" x="102" y="161" w="460" h="266" measuredW="460" measuredH="266" zOrder="2" locked="false" isInGroup="-1">
+      <groupChildrenDescriptors>
+        <control controlID="0" controlTypeID="com.balsamiq.mockups::FieldSet" x="0" y="0" w="460" h="266" measuredW="200" measuredH="170" zOrder="0" locked="false" isInGroup="18">
+          <controlProperties>
+            <color>16777215</color>
+            <text>page.tpl.php</text>
+          </controlProperties>
+        </control>
+        <control controlID="1" controlTypeID="com.balsamiq.mockups::Image" x="109" y="19" w="120" h="79" measuredW="77" measuredH="79" zOrder="1" locked="false" isInGroup="18">
+          <controlProperties>
+            <text/>
+          </controlProperties>
+        </control>
+        <control controlID="2" controlTypeID="com.balsamiq.mockups::Image" x="142" y="181" w="54" h="49" measuredW="77" measuredH="79" zOrder="2" locked="false" isInGroup="18">
+          <controlProperties>
+            <text/>
+          </controlProperties>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+  </controls>
+</mockup>
