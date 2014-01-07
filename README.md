@@ -21,9 +21,8 @@ The completed Domicile theme, ready for upload to your Drupal site. Includes sou
 
 */lesson_snapshots*
 
-Various theme and database snapshots used throughout the video learning series. Admin credentials are `admin / admin`. Database can be imported with:
-
-`gunzip < data/complete-site.sql.gz | mysql -u {username} -p -h {localhost} {databse_name}`
+Various theme and database snapshots used throughout the video learning series. You will need to reset the administrative password (there are
+instructions at http://randyfay.com/content/resetting-drupal-passwords-drupal-7-drush-or-without).
 
 */styleguide*
 
