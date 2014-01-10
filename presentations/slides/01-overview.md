@@ -2,9 +2,6 @@
 
 http://lb.cm/psdtotheme-acquia
 
-- BS and AS (before and after SMACSS)
-- 
-
 ---------------------------------------
 ## The Old Way to PSD to Theme
 
@@ -23,56 +20,6 @@ Note: This is how we used to do things.
 2. Create a library of basic styles according to SMACSS convention.
 3. Adjust Drupal class names to match style component names.
 4. Look for bugs and refactor the component styles to match the design.
-
----------------------------------------
-## Pro Tip
-
-Let your base theme take care of your requirements for:
-
-- grid framework
-- accessibility compliance
-- responsive defaults
-
-
-===============================================================================
-## Intro to SMACSS
-
----------------------------------------
-## Scalable and Modular Architecture for CSS
-
-SMACSS was created by Jonathan Snook
-http://smacss.com/
-
-----------
-## SMACSS Rules
-
-- Base rules (HTML element overrides)
-- Layout rules (wire frames)
-- Component rules (anything that can be placed, or reused on your site)
-- State rules (augments and overrides)
-- Theme rules (variations)
-
-----------
-## Folder Structure
-
-- ``base`` OR ``global``
-  - HTML elements
-  - resets and overrides
-- ``components``
-  - almost everything (as single files!)
-- ``layout``
-  - grid framework and layout definitions
-
-----------
-## file: ``styles.scss``
-
-imports all of your style files
-
-----------
-## directory: ``components``
-
-![contents of the components directory; including the _components.scss file of doom](assets/components.jpg)
-
 
 
 ===============================================================================
@@ -133,7 +80,7 @@ Create the layout rules relevant to your base theme / grid framework.
 These are typically your base, or global, rules.
 
 --------
-## Find the HTML Element ish Styles
+## Find the HTML Element-ish Styles
 
 - Headings
 - Paragraphs
@@ -143,12 +90,112 @@ These are typically your base, or global, rules.
 ## ``base/_base.scss`` 
 
 ````
+$default: #666666; // darker grey
+$heading: #999999; // ligher grey
+$accent1st: #336666; // greenish
+
 h1, h2, h3 {
-  color: ;
-  width: 100%;
+  color: $heading;
+  margin-bottom: 0;
 }
 ````
 
+===============================================================================
+## 3. What Can be Moved Like Furniture?
+
+These are your components.
+
+
 ---------------------------------------
-##
-Note: 
+## Identify Visual Assets
+
+![the domicile design images highlighted](assets/domicile-assets.png)
+
+---------------------------------------
+## Extract the Assets
+
+![the domicile theme with extracted images](assets/domicile-assets-extracted.png)
+
+---------------------------------------
+## Recognize Components
+
+![the domicile design cut into components](assets/components.png)
+![the domicile design cut into components](assets/components-sliced.png)
+
+---------------------------------------
+## ``components/_news-teaser.scss``
+
+How is it different than your base rules?
+
+````
+.news-teaser {
+  h2 { text-transform: uppercase; }
+  p:first-child { color: $accent1st; }
+  p { color: $default; }
+}
+````
+
+===============================================================================
+## Apply it to Drupal
+
+
+---------------------------------------
+## Build Your Drupal Site
+
+- With your components in mind, build out your Drupal site.
+- You cannot apply a style to an element which isn't being rendered in a page.
+
+---------------------------------------
+## Establish Your Theme 
+
+![the domicile theme folder](assets/domicile-theme-folders.png)
+
+---------------------------------------
+## Pro Tip
+
+Let your base theme take care of your requirements for:
+
+- updating markup to HTML5
+- grid framework
+- accessibility compliance
+- responsive defaults
+
+---------------------------------------
+## Adjust ``page.tpl.php``
+
+![tpl.php code](assets/page-tpl-php.png)
+
+---------------------------------------
+## Launch an MVP Theme
+
+![a barely there theme](assets/domicile-mvt.png)
+
+## Apply Your Styles
+
+Alter your SCSS with ``@extend``.
+````
+.drupal-weird-class {
+  @extend .my-awesome-class;
+}
+````
+Alter Drupal’s classes in ``template.php``
+
+## Refactor. Repeat.
+
+- Refactor: Remove what’s not working.
+- Repeat.
+
+=================
+## Summary
+
+- the benefits of theming by component
+- what you need to have in place before you start
+- what's worth keeping from SMACSS (and what's just overhead)
+- how to refine my simple procedure so it works for your team, and with any version of Drupal
+
+------
+## Applying SMACSS to Drupal
+
+- [CSS Coding Standards](https://drupal.org/node/1886770)
+- [Applying SMACSS to Drupal](http://atendesigngroup.com/blog/applying-smacss-drupal)
+- [Dominate the Theme Layeri](http://munich2012.drupal.org/program/sessions/dominate-theme-layer.html)
