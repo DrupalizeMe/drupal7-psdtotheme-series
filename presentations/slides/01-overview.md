@@ -57,7 +57,7 @@ These are your layout rules.
 -------------
 ## Locate the Containers
 
-![the domicile design with three layout columns highlighted in yellow](assets/domicile-regionsl.png)
+![the domicile design with three layout columns highlighted in yellow](assets/domicile-regions.png)
 
 -------------
 ## Sketch the Essence 
@@ -119,7 +119,6 @@ These are your components.
 ---------------------------------------
 ## Recognize Components
 
-![the domicile design cut into components](assets/components.png)
 ![the domicile design cut into components](assets/components-sliced.png)
 
 ---------------------------------------
