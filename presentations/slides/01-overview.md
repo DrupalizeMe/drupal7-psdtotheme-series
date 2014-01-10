@@ -29,10 +29,11 @@ Note: This is how we used to do things.
 ## You New Here?
 
 “Are you new to front-end web development? Here's a secret: no one else really knows what they're doing either.” 
-~ Nicolas Gallagher
+
+Nicolas Gallagher
 
 -------------
-## Ask Yourself Three Questions
+## The Three Magic Questions<br/>for PSD to Theme 
 
 1. What’s the shape?
 2. What’s consistent throughout the site?
@@ -65,14 +66,35 @@ These are your layout rules.
 ![the domicile design as a sketch](assets/domicile-sketch.png)
 
 -------------
-## Abstract to the Wireframe
+## Abstract the Design to a Wireframe
 
 ![the domicile design as a wireframe](assets/domicile-wireframe.png)
 
 -------------
 ## ``layout/_default.scss`` 
 
-Create the layout rules relevant to your base theme / grid framework.
+Create the layout rules for your grid framework of choice.
+
+````
+$ninesixty-columns: 12;
+
+.fullwidth {
+  @include grid-container;
+  
+  #nav {
+    @include grid(2);
+  }
+
+  #featured {
+    @include grid(4);
+  }
+
+  #content {
+    @include grid(6);
+  }
+}
+````
+Note: Ideally the design will have used the templates for your CSS grid framework.
 
 ===============================================================================
 ## 2. What's Consistent?
@@ -103,28 +125,17 @@ h1, h2, h3 {
 ===============================================================================
 ## 3. What Can be Moved Like Furniture?
 
-These are your components.
-
-
----------------------------------------
-## Identify Visual Assets
-
-![the domicile design images highlighted](assets/domicile-assets.png)
+Anything you can draw a box around is a component.
 
 ---------------------------------------
-## Extract the Assets
-
-![the domicile theme with extracted images](assets/domicile-assets-extracted.png)
-
----------------------------------------
-## Recognize Components
+## Identify, and List Components
 
 ![the domicile design cut into components](assets/components-sliced.png)
 
 ---------------------------------------
 ## ``components/_news-teaser.scss``
 
-How is it different than your base rules?
+- Component styles should be reusable. 
 
 ````
 .news-teaser {
@@ -133,6 +144,8 @@ How is it different than your base rules?
   p { color: $default; }
 }
 ````
+- Put duplicate styles into variables and mixins.
+- Match your file name to your style class.
 
 ===============================================================================
 ## Apply it to Drupal
@@ -160,6 +173,16 @@ Let your base theme take care of your requirements for:
 - responsive defaults
 
 ---------------------------------------
+## Identify Visual Assets
+
+![the domicile design images highlighted](assets/domicile-assets.png)
+
+---------------------------------------
+## Extract the Assets
+
+![the domicile theme with extracted images](assets/domicile-assets-extracted.png)
+
+---------------------------------------
 ## Adjust ``page.tpl.php``
 
 ![tpl.php code](assets/page-tpl-php.png)
@@ -169,19 +192,28 @@ Let your base theme take care of your requirements for:
 
 ![a barely there theme](assets/domicile-mvt.png)
 
+---------------------------------------
 ## Apply Your Styles
 
-Alter your SCSS with ``@extend``.
+Easy road: Alter your SCSS with ``@extend``.
 ````
 .drupal-weird-class {
   @extend .my-awesome-class;
 }
 ````
-Alter Drupal’s classes in ``template.php``
+High road: Alter Drupal’s classes in ``template.php``
 
+````
+function THEMENAME_menu_tree($vars) {
+  return '<ul class="my-awesome-class">' . $vars['tree'] . '</ul>';
+}
+````
+
+---------------------------------------
 ## Refactor. Repeat.
 
-- Refactor: Remove what’s not working.
+- Refactor: Remove or fix styles that aren't working.
+- Clear cache and see what's (now) broken.
 - Repeat.
 
 =================
@@ -197,4 +229,4 @@ Alter Drupal’s classes in ``template.php``
 
 - [CSS Coding Standards](https://drupal.org/node/1886770)
 - [Applying SMACSS to Drupal](http://atendesigngroup.com/blog/applying-smacss-drupal)
-- [Dominate the Theme Layeri](http://munich2012.drupal.org/program/sessions/dominate-theme-layer.html)
+- [Dominate the Theme Layer](http://munich2012.drupal.org/program/sessions/dominate-theme-layer.html)
