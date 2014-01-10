@@ -1,0 +1,17 @@
+From PSD to Drupal Theme
+=============================
+
+1 hour Acquia webinar.
+February 12, 2014
+slides: webinar.html
+
+The problem with creating a Drupal theme is—once you know how—it becomes intuitive. Themers spontaneously transform design files into complete Drupal themes without realizing all of the little steps their brain takes to achieve the final solution. It's sort of like those “learn to draw a cat” books which take you from a basic circle to a perfectly sketched cat in four "simple" steps. In this webinar we'll remove the mystery and teach you the step-by-step strategies themers use to create amazing, extensible themes.
+
+Your instructor for the webinar, Emma Jane Westby, has been teaching people how to theme for years. Her first book, Front End Drupal, was consistently cited as the best book to learn Drupal theming. She's brought her book up-to-date in a video lesson series for Drupalize.Me, and will share the highlights with you during this one-hour webinar.
+
+In this webinar you will learn:
+
+The strategies themers use to quickly transform design files into Drupal themes
+How to document your process so that none of your design decisions are abandoned in static design files
+How to connect Drupal to your design by targeting specific elements
+Which tools will save you time in building out your Drupal theme (and which ones are going to slow you down)
