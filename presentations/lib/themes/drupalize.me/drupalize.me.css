@@ -16,7 +16,7 @@ html * {
  *********************************************/
 body {
   /* background: #fff url(background.png) no-repeat center; */
-  background: #fff url(images/d8logo.svg) no-repeat center;
+  /* background: #fff url(images/d8logo.svg) no-repeat center; */
   background-color: #fff;
   background-size: 80%;
   border-bottom: 20px solid #000;
