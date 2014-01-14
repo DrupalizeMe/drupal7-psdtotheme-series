@@ -2,6 +2,14 @@
 
 http://lb.cm/psdtotheme-acquia
 
+1. PSD to Theme strategies.
+2. Front end documentation.
+3. Theming by component.
+4. Useful tools.
+
+================
+## PSD to Theme Strategies
+
 ---------------------------------------
 ## The Old Way to PSD to Theme
 
@@ -21,9 +29,58 @@ Note: This is how we used to do things.
 3. Adjust Drupal class names to match style component names.
 4. Look for bugs and refactor the component styles to match the design.
 
+===============================================================================
+## Front End Documentation
+
+- Plain text, with picture references
+- Automated style guides
+- Curated style pages
+
+Note: how to document your process so that none of your design decisions are abandonned in static files.
+
+-------
+## Plain Text (or Markdown)
+
+````
+Layout Rules
+---------
+The shape of your web site, including the number of 
+grid columns for each area.
+
+- Banner Area -- large image - 12 grid columns
+- Navigation area -- left column - 2 grid columns
+- Featured area -- center column - 4 grid columns
+- Content area -- right column - 6 grid columns
+- Copyright area -- footer - 12 grid columns
+
+Reference:
+layout-wireframe.png
+layout-gridcols.png
+````
+
+-------
+## Automated Style Guides
+
+- [KSS](http://warpspire.com/kss/styleguides/)
+- [GitHub's style guide](https://github.com/styleguide/css)
+- [StyleDocco](http://jacobrask.github.io/styledocco/)
+- [Kalei](http://kaleistyleguide.com/)
+
+Sadly: they're not *quite* ready for prime time.
+
+-------
+## Curated Style Pages
+
+- More than a [style tile](http://styletil.es/); less than a finished web site.
+- [Front End Style Guides](http://24ways.org/2011/front-end-style-guides/)
+- [Project Hubs](http://24ways.org/2013/project-hubs/)
 
 ===============================================================================
-## yeabuthow?!
+## Theming By Component
+
+yeabuthow?!
+
+Note: How to connect Drupal to your design by targetting specific elements.
 
 ---------
 ## You New Here?
@@ -216,17 +273,60 @@ function THEMENAME_menu_tree($vars) {
 - Clear cache and see what's (now) broken.
 - Repeat.
 
-=================
-## Summary
+===============================================================================
+## Tool Recap
 
-- the benefits of theming by component
-- what you need to have in place before you start
-- what's worth keeping from SMACSS (and what's just overhead)
-- how to refine my simple procedure so it works for your team, and with any version of Drupal
+1. Style guide (text + images)
+1. Sass and Compass 
+2. Grid frameworks
+3. SMACSS
+
+http://lb.cm/psdtotheme-acquia
 
 ------
-## Applying SMACSS to Drupal
+## Style Guide
+
+- Describe your components as text, image, and code.
+- Weed your style guide daily.
+- Put it as close as possible to your code.
+
+Video lesson: http://drupalize.me/videos/create-theme-style-guide
+
+------
+## Sass and Compass 
+
+- Ensure your styles are modular and your CSS is re-usable.
+- Use a relevant starter kit for your project.
+- Your starter kit does not need to be a Drupal base theme.
+
+Video lessons: http://drupalize.me/series/learning-sass-and-compass
+
+------
+## Grid Frameworks
+
+- Choose a grid frame during the design phase.
+- Use the @extend directive in Sass to make your grid framework semantic.
+
+Video lesson: http://drupalize.me/videos/layout-rules-css-stubs
+
+------
+## Resources on Applying SMACSS to Drupal
 
 - [CSS Coding Standards](https://drupal.org/node/1886770)
 - [Applying SMACSS to Drupal](http://atendesigngroup.com/blog/applying-smacss-drupal)
 - [Dominate the Theme Layer](http://munich2012.drupal.org/program/sessions/dominate-theme-layer.html)
+
+=================
+## Summary
+
+- Theming by component makes stronger connections from PSD to Drupal easier.
+- Incorporating the right tools early in the process, makes it easier to "snap" pieces together later.
+- You can't theme something which doesn't exist.
+
+=================
+## Learn and Save 
+
+http://lb.cm/psdtotheme-acquia
+
+- All of the resources mentioned in this webinar.
+- A special gift from the Drupalize.Me team.
