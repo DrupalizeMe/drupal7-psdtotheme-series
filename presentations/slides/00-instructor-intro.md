@@ -1,6 +1,7 @@
-# Getting Up to Speed on Drupal 8
+# PSD to Theme 
 
-Emma Jane Westby // [@emmajanehw](http://twitter.com/emmajanehw) // [emma.westby@drupalize.me](mailto:emma.westby@drupalize.me)
+Emma Jane Westby 
+<br/>[@emmajanehw](http://twitter.com/emmajanehw) // [emma.westby@drupalize.me](mailto:emma.westby@drupalize.me)
 
 ---------------------------------------
 ## My Name Is
