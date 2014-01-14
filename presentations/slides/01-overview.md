@@ -3,8 +3,8 @@
 http://lb.cm/psdtotheme-acquia
 
 1. PSD to Theme strategies.
-2. Front end documentation.
-3. Theming by component.
+2. Theming by component.
+3. Front end documentation.
 4. Useful tools.
 
 ================
@@ -15,22 +15,22 @@ http://lb.cm/psdtotheme-acquia
 Nicolas Gallagher
 
 ---------------------------------------
-## The Way to PSD to Theme
+## PSD to Theme Step-by-Step
 
 Theming by component:
 
-1. Sketch out the design components.
+1. Identify the design components.
 2. Create a library of basic styles according to SMACSS convention.
 3. Adjust Drupal class names to match style component names.
 4. Look for bugs and refactor the component styles to match the design.
 
 -------------
-## Finding Components
+## Identify Design Components
 
 To find your components, ask yourself:
 
 1. What’s the shape?
-2. What’s consistent throughout the site?
+2. What’s consistent?
 3. What can be moved like furniture?
 
 -------------
@@ -55,12 +55,7 @@ These are your layout rules.
 ![the domicile design with three layout columns highlighted in yellow](assets/domicile-regions.png)
 
 -------------
-## Sketch the Essence 
-
-![the domicile design as a sketch](assets/domicile-sketch.png)
-
--------------
-## Abstract the Essence to a Wireframe
+## Abstract the Design to a Wireframe
 
 ![the domicile design as a wireframe](assets/domicile-wireframe.png)
 
@@ -109,7 +104,7 @@ Anything you can draw a box around is a component.
 ---------------------------------------
 ## Screen Captures Make Good Boxes 
 
-![the domicile design cut into components](assets/components-sliced.png)
+![the domicile design cut into components](assets/components-collated.png)
 
 Note: To easily identify components, start taking screen captures of your PSD file.
 
@@ -128,9 +123,9 @@ Note: show the style guide for this
 
 
 ===========
-## Front End Documentation
+## Document<br/>Layout, Base, Component Rules
 
-Plain Text (or Markdown) is fine!
+Plain text (or Markdown) is fine!
 
 ````
 Layout Rules
@@ -150,10 +145,15 @@ layout-gridcols.png
 ````
 
 ======
-## Converting Plain Text to Code 
+## Converting Plain Text to Code
 
-Your plain text documentation can now be easily converted
-into Sass (and CSS).
+By using words to describe your design files, you can easily convert the text representation of the design into "code" (Sass / CSS) using [SMACSS](http://smacss.com) conventions.
+
+- Shape becomes Layout Rules
+- Consistency becomes Base Rules
+- Furniture becomes Component Rules
+
+Note: SMACSS is Scalable and Modular Architecture for CSS.
 
 -------------
 ## 1. Layout: What's the Shape
@@ -374,3 +374,7 @@ Sadly: they're not *quite* ready for prime time.
 
 ![the domicile theme with extracted images](assets/domicile-assets-extracted.png)
 
+-------------
+## Sketch the Essence 
+
+![the domicile design as a sketch](assets/domicile-sketch.png)
