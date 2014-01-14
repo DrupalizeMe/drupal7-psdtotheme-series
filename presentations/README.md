@@ -42,6 +42,22 @@ Copy the index.html file from one of the existing presentations into your own pr
 
 Presentations are created using Reveal.js, see [the documentation here](https://github.com/hakimel/reveal.js) for more on the syntax to use.
 
+## Speaker Notes
+To take advantage of the speaker notes you will need to be viewing your deck from a Web server (e.g. Grunt or Apache). Check the HTML file for your deck to see if notes are enabled. If they are enabled, you will have a line like this:
+
+ ````{src: '../lib/reveal.js/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } },````
+
+To view the speaker notes, press the 's' key on your keyboard. A separate notes window will open.
+
+To add speaker notes to your deck, you may use the following for HTML slides:
+
+````<aside class="notes">Oh hey, these are some notes.</aside>````
+
+If you are using markdown files, you may use the following syntax:
+
+````Note: Oh hey, these are some notes.````
+
+
 ## Differences from Standard Reveal.js
 
 We've got our own theme! Whee.
