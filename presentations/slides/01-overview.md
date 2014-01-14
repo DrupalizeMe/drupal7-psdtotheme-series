@@ -10,87 +10,24 @@ http://lb.cm/psdtotheme-acquia
 ================
 ## PSD to Theme Strategies
 
----------------------------------------
-## The Old Way to PSD to Theme
+“Are you new to front-end web development? Here's a secret: no one else really knows what they're doing either.” 
 
-1. Sketch out the design components.
-2. Choose an appropriate base theme.
-3. Apply relevant static images to the main tpl.php files.
-4. Launch the theme.
-5. Create high specificity selectors to target and fix problems.
-
-Note: This is how we used to do things.
+Nicolas Gallagher
 
 ---------------------------------------
-## The New Way to PSD to Theme
+## The Way to PSD to Theme
+
+Theming by component:
 
 1. Sketch out the design components.
 2. Create a library of basic styles according to SMACSS convention.
 3. Adjust Drupal class names to match style component names.
 4. Look for bugs and refactor the component styles to match the design.
 
-===============================================================================
-## Front End Documentation
-
-- Plain text, with picture references
-- Automated style guides
-- Curated style pages
-
-Note: how to document your process so that none of your design decisions are abandonned in static files.
-
--------
-## Plain Text (or Markdown)
-
-````
-Layout Rules
----------
-The shape of your web site, including the number of 
-grid columns for each area.
-
-- Banner Area -- large image - 12 grid columns
-- Navigation area -- left column - 2 grid columns
-- Featured area -- center column - 4 grid columns
-- Content area -- right column - 6 grid columns
-- Copyright area -- footer - 12 grid columns
-
-Reference:
-layout-wireframe.png
-layout-gridcols.png
-````
-
--------
-## Automated Style Guides
-
-- [KSS](http://warpspire.com/kss/styleguides/)
-- [GitHub's style guide](https://github.com/styleguide/css)
-- [StyleDocco](http://jacobrask.github.io/styledocco/)
-- [Kalei](http://kaleistyleguide.com/)
-
-Sadly: they're not *quite* ready for prime time.
-
--------
-## Curated Style Pages
-
-- More than a [style tile](http://styletil.es/); less than a finished web site.
-- [Front End Style Guides](http://24ways.org/2011/front-end-style-guides/)
-- [Project Hubs](http://24ways.org/2013/project-hubs/)
-
-===============================================================================
-## Theming By Component
-
-yeabuthow?!
-
-Note: How to connect Drupal to your design by targetting specific elements.
-
----------
-## You New Here?
-
-“Are you new to front-end web development? Here's a secret: no one else really knows what they're doing either.” 
-
-Nicolas Gallagher
-
 -------------
-## The Three Magic Questions<br/>for PSD to Theme 
+## Finding Components
+
+To find your components, ask yourself:
 
 1. What’s the shape?
 2. What’s consistent throughout the site?
@@ -123,12 +60,105 @@ These are your layout rules.
 ![the domicile design as a sketch](assets/domicile-sketch.png)
 
 -------------
-## Abstract the Design to a Wireframe
+## Abstract the Essence to a Wireframe
 
 ![the domicile design as a wireframe](assets/domicile-wireframe.png)
 
+---------
+## Write Down Your Layout Rules
+
+The shape of your web site, including the number of 
+grid columns for each area.
+
+- Banner Area -- large image - 12 grid columns
+- Navigation area -- left column - 2 grid columns
+- Featured area -- center column - 4 grid columns
+- Content area -- right column - 6 grid columns
+- Copyright area -- footer - 12 grid columns
+
+===============================================================================
+## 2. What's Consistent?
+
+These are typically your base, or global, rules.
+
+--------
+## Find the HTML Element-ish Styles
+
+- Headings
+- Paragraphs
+- Links
+
+---------
+## Write Down Your Base Rules
+
+HTML element re-writes that are consistent from
+page-to-page.
+
+- darker gray -- #666666 -- most text "default"
+- lighter gray -- #999999 -- headings
+- green ish -- #336666 -- primary accent colour
+- brownish -- #996633 -- secondary accent colour
+- font styling: mostly serif
+(etc)
+
+===============================================================================
+## 3. What Can be Moved Like Furniture?
+
+Anything you can draw a box around is a component.
+
+---------------------------------------
+## Screen Captures Make Good Boxes 
+
+![the domicile design cut into components](assets/components-sliced.png)
+
+Note: To easily identify components, start taking screen captures of your PSD file.
+
+-----
+## Write Down Your Components
+
+Featured (4 columns) - Quotes and images
+
+- primary decoration
+- image of a plate + headings
+- Sample design: component-feature-decoration-primary.png
+
+![the feature component](assets/component-feature-decoration-primary.png)
+
+Note: show the style guide for this
+
+
+===========
+## Front End Documentation
+
+Plain Text (or Markdown) is fine!
+
+````
+Layout Rules
+---------
+The shape of your web site, including the number of 
+grid columns for each area.
+
+- Banner Area -- large image - 12 grid columns
+- Navigation area -- left column - 2 grid columns
+- Featured area -- center column - 4 grid columns
+- Content area -- right column - 6 grid columns
+- Copyright area -- footer - 12 grid columns
+
+Reference:
+layout-wireframe.png
+layout-gridcols.png
+````
+
+======
+## Converting Plain Text to Code 
+
+Your plain text documentation can now be easily converted
+into Sass (and CSS).
+
 -------------
-## ``layout/_default.scss`` 
+## 1. Layout: What's the Shape
+
+``layout/_default.scss`` 
 
 Create the layout rules for your grid framework of choice.
 
@@ -153,20 +183,11 @@ $ninesixty-columns: 12;
 ````
 Note: Ideally the design will have used the templates for your CSS grid framework.
 
-===============================================================================
-## 2. What's Consistent?
-
-These are typically your base, or global, rules.
 
 --------
-## Find the HTML Element-ish Styles
+## 2. Base: What's Consistent?
 
-- Headings
-- Paragraphs
-- Links
-
---------
-## ``base/_base.scss`` 
+``base/_base.scss`` 
 
 ````
 $default: #666666; // darker grey
@@ -179,18 +200,10 @@ h1, h2, h3 {
 }
 ````
 
-===============================================================================
-## 3. What Can be Moved Like Furniture?
+-----------
+## 3. Components: Moveable Furniture
 
-Anything you can draw a box around is a component.
-
----------------------------------------
-## Identify, and List Components
-
-![the domicile design cut into components](assets/components-sliced.png)
-
----------------------------------------
-## ``components/_news-teaser.scss``
+``components/_news-teaser.scss``
 
 - Component styles should be reusable. 
 
@@ -230,17 +243,10 @@ Let your base theme take care of your requirements for:
 - responsive defaults
 
 ---------------------------------------
-## Identify Visual Assets
-
-![the domicile design images highlighted](assets/domicile-assets.png)
-
----------------------------------------
-## Extract the Assets
-
-![the domicile theme with extracted images](assets/domicile-assets-extracted.png)
-
----------------------------------------
 ## Adjust ``page.tpl.php``
+
+- Apply the layout classes from your style guide.
+- Insert hard-coded images.
 
 ![tpl.php code](assets/page-tpl-php.png)
 
@@ -250,7 +256,7 @@ Let your base theme take care of your requirements for:
 ![a barely there theme](assets/domicile-mvt.png)
 
 ---------------------------------------
-## Apply Your Styles
+## Apply Remaining Styles
 
 Easy road: Alter your SCSS with ``@extend``.
 ````
@@ -289,8 +295,7 @@ http://lb.cm/psdtotheme-acquia
 - Describe your components as text, image, and code.
 - Weed your style guide daily.
 - Put it as close as possible to your code.
-
-Video lesson: http://drupalize.me/videos/create-theme-style-guide
+- Video lesson: http://drupalize.me/videos/create-theme-style-guide
 
 ------
 ## Sass and Compass 
@@ -298,16 +303,14 @@ Video lesson: http://drupalize.me/videos/create-theme-style-guide
 - Ensure your styles are modular and your CSS is re-usable.
 - Use a relevant starter kit for your project.
 - Your starter kit does not need to be a Drupal base theme.
-
-Video lessons: http://drupalize.me/series/learning-sass-and-compass
+- Video lesson: http://drupalize.me/series/learning-sass-and-compass
 
 ------
 ## Grid Frameworks
 
 - Choose a grid frame during the design phase.
 - Use the @extend directive in Sass to make your grid framework semantic.
-
-Video lesson: http://drupalize.me/videos/layout-rules-css-stubs
+- Video lesson: http://drupalize.me/videos/layout-rules-css-stubs
 
 ------
 ## Resources on Applying SMACSS to Drupal
@@ -330,3 +333,44 @@ http://lb.cm/psdtotheme-acquia
 
 - All of the resources mentioned in this webinar.
 - A special gift from the Drupalize.Me team.
+
+
+============
+## Front End Documentation
+
+Three types of front end documentation:
+
+- Plain text, with picture references
+- Automated style guides
+- Curated style pages
+
+Note: how to document your process so that none of your design decisions are abandonned in static files.
+
+-------
+## Automated Style Guides
+
+- [KSS](http://warpspire.com/kss/styleguides/)
+- [GitHub's style guide](https://github.com/styleguide/css)
+- [StyleDocco](http://jacobrask.github.io/styledocco/)
+- [Kalei](http://kaleistyleguide.com/)
+
+Sadly: they're not *quite* ready for prime time.
+
+-------
+## Curated Style Pages
+
+- More than a [style tile](http://styletil.es/); less than a finished web site.
+- [Front End Style Guides](http://24ways.org/2011/front-end-style-guides/)
+- [Project Hubs](http://24ways.org/2013/project-hubs/)
+
+
+---------------------------------------
+## Identify Visual Assets
+
+![the domicile design images highlighted](assets/domicile-assets.png)
+
+---------------------------------------
+## Extract the Assets
+
+![the domicile theme with extracted images](assets/domicile-assets-extracted.png)
+
