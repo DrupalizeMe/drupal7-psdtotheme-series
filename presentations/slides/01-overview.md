@@ -1,7 +1,5 @@
 ## What We're Going to Talk About
 
-http://lb.cm/psdtotheme-acquia
-
 1. PSD to Theme strategies.
 2. Theming by component.
 3. Front end documentation.
@@ -287,8 +285,6 @@ function THEMENAME_menu_tree($vars) {
 2. Grid frameworks
 3. SMACSS
 
-http://lb.cm/psdtotheme-acquia
-
 ------
 ## Style Guide
 
@@ -326,55 +322,3 @@ http://lb.cm/psdtotheme-acquia
 - Incorporating the right tools early in the process, makes it easier to "snap" pieces together later.
 - You can't theme something which doesn't exist.
 
-=================
-## Learn and Save 
-
-http://lb.cm/psdtotheme-acquia
-
-- All of the resources mentioned in this webinar.
-- A special gift from the Drupalize.Me team.
-
-
-============
-## Front End Documentation
-
-Three types of front end documentation:
-
-- Plain text, with picture references
-- Automated style guides
-- Curated style pages
-
-Note: how to document your process so that none of your design decisions are abandonned in static files.
-
--------
-## Automated Style Guides
-
-- [KSS](http://warpspire.com/kss/styleguides/)
-- [GitHub's style guide](https://github.com/styleguide/css)
-- [StyleDocco](http://jacobrask.github.io/styledocco/)
-- [Kalei](http://kaleistyleguide.com/)
-
-Sadly: they're not *quite* ready for prime time.
-
--------
-## Curated Style Pages
-
-- More than a [style tile](http://styletil.es/); less than a finished web site.
-- [Front End Style Guides](http://24ways.org/2011/front-end-style-guides/)
-- [Project Hubs](http://24ways.org/2013/project-hubs/)
-
-
----------------------------------------
-## Identify Visual Assets
-
-![the domicile design images highlighted](assets/domicile-assets.png)
-
----------------------------------------
-## Extract the Assets
-
-![the domicile theme with extracted images](assets/domicile-assets-extracted.png)
-
--------------
-## Sketch the Essence 
-
-![the domicile design as a sketch](assets/domicile-sketch.png)

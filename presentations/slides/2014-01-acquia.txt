@@ -2,8 +2,9 @@ From PSD to Drupal Theme
 =============================
 
 1 hour Acquia webinar.
-February 12, 2014
+January 12, 2014
 slides: webinar.html
+url: http://lb.cm/psdtotheme-acquia
 
 The problem with creating a Drupal theme is—once you know how—it becomes intuitive. Themers spontaneously transform design files into complete Drupal themes without realizing all of the little steps their brain takes to achieve the final solution. It's sort of like those “learn to draw a cat” books which take you from a basic circle to a perfectly sketched cat in four "simple" steps. In this webinar we'll remove the mystery and teach you the step-by-step strategies themers use to create amazing, extensible themes.
 
