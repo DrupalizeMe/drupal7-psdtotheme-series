@@ -8,6 +8,20 @@ Clone this repository, and launch a presentation in your browser. For full effec
 
 http://localhost/index.html
 
+In OSX, make sure a Web server is running with the following:
+
+````
+$ ps aux | grep httpd
+````
+
+If the Web server is not running you will see a single reference to your grep command, if it is running you'll see the Apache daemon.
+
+If Apache is not running, you can start it with the following command:
+
+````
+$ sudo apachectl start
+````
+
 If you would like your audience to follow along with your presentation, use the "multiplex" functionality of Reveal.js. 
 
 Your local deck acts as a "master" to the "client" deck which is published to the web.
