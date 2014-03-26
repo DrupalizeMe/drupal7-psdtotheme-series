@@ -1,0 +1,36 @@
+/**
+ * @file
+ * Content.css
+ *
+ * The components describing primary content. Typically appears in the right-
+ * most sidebar.
+ *
+ */
+/* line 14, ../../scss/components/content.scss */
+.content--main h1 {
+  color: #999999;
+  margin-top: 10px;
+}
+/* line 19, ../../scss/components/content.scss */
+.content--main .node p {
+  line-height: 1.75;
+  margin-bottom: 0.5em;
+}
+/* line 24, ../../scss/components/content.scss */
+.content--main .block:first-child {
+  margin-bottom: 40px;
+}
+/* line 26, ../../scss/components/content.scss */
+.content--main .block:first-child p {
+  color: #666666;
+  font-size: 125%;
+  font-family: Serif;
+  font-style: italic;
+  line-height: 2;
+  margin-bottom: 0.25em;
+}
+/* line 35, ../../scss/components/content.scss */
+.content--main .block:first-child p:first-child {
+  color: #336666;
+  font-style: normal;
+}

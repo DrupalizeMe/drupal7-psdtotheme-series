@@ -1,0 +1,46 @@
+<div class="page fullwidth">
+  <div id="banner" class="fullwidth"><img alt=" " src="{{ base_path }}themes/domicile/images/domicile-banner.png" /></div>
+  <div id="main" class="fullwidth clearfix">
+    <div id="nav" class="sidebar--nav"> 
+ <a href="{{ front_page }}" title="{{ 'Home'|t }}" rel="home" id="logo"><img alt=" " src="{{ base_path }}themes/domicile/images/at-home.jpg" /></a>
+
+    {{ page.nav }}
+
+    </div>
+    <div id="featured" class="sidebar--feature">
+      <div class="decoration"><img alt=" " src="{{ base_path }}themes/domicile/images/big-plate.jpg" /></div>
+       {{ page.featured}}
+
+      <div class="decoration"><img alt=" " src="{{ base_path }}themes/domicile/images/little-plate.jpg" /></div>
+    </div>
+    <div id="content" class="content--main">
+
+    {{ messages }}
+
+<a id="main-content"></a>
+       {{ title_prefix }}
+         {% if title %}
+           <h1 class="title" id="page-title">{{ title }}</h1>
+         {% endif %}
+       {{ title_suffix }}
+         {% if tabs %}
+           <div class="tabs">{{ tabs }}</div>
+         {% endif %}
+
+       {{ page.nav }}
+       {{ page.help }}
+         
+         {% if action_links %}
+           <ul class="action-links">
+             {{ action_links }}
+           </ul>
+         {% endif %}
+
+       {{ page.content }}
+       {{ feed_icons }}
+
+    </div>
+  </div>
+
+  <div id="copyright" class="fullwidth"> {{ page.copyright }} </div>
+</div>

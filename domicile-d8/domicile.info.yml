@@ -1,0 +1,20 @@
+name: Domicile
+type: theme
+description: 'A three-column design by Design House.'
+core: 8.x
+
+stylesheets:
+  all:
+    - css/styles.css
+    - css/text.css
+    - css/components/content.css
+    - css/components/copyright.css
+    - css/components/featured.css
+    - css/components/navigation.css
+    - css/components/news.css
+
+regions:
+  featured: Featured - center column
+  nav: Nav - left column
+  copyright: Copyright - footer
+  content: Content

@@ -1,0 +1,65 @@
+/**
+ * @file
+ * News.css
+ *
+ * The components describing river of news. Typically appears in the right-
+ * most sidebar on the home page of the site.
+ *
+ */
+/* line 12, ../../scss/components/news.scss */
+.news, .front #content {
+  margin-top: 40px;
+  font-family: Helvetica, Arial, Sans-Serif;
+}
+/* line 16, ../../scss/components/news.scss */
+.news .node, .front #content .node {
+  float: left;
+  font-size: 90%;
+  margin-bottom: 20px;
+  padding-right: 4%;
+  width: 45%;
+}
+/* line 23, ../../scss/components/news.scss */
+.news .node h2, .front #content .node h2 {
+  margin-bottom: 5px;
+}
+/* line 25, ../../scss/components/news.scss */
+.news .node h2 a, .front #content .node h2 a, .news .node h2 a:link, .front #content .node h2 a:link {
+  color: #996633;
+  font-family: Serif;
+  font-weight: normal;
+  text-transform: uppercase;
+}
+/* line 32, ../../scss/components/news.scss */
+.news .node p:first-child, .front #content .node p:first-child {
+  color: #996633;
+  font-weight: bold;
+}
+/* line 37, ../../scss/components/news.scss */
+.news .node img, .front #content .node img {
+  float: left;
+  padding: 0 10px 5px 0;
+  width: 60px;
+}
+/* line 43, ../../scss/components/news.scss */
+.news .node a, .front #content .node a {
+  color: #336666;
+  text-transform: uppercase;
+}
+/* line 48, ../../scss/components/news.scss */
+.news .node li.node-readmore, .front #content .node li.node-readmore {
+  float: right;
+  text-transform: uppercase;
+}
+/* line 54, ../../scss/components/news.scss */
+.news .pager, .front #content .pager {
+  display: none;
+}
+
+/* line 59, ../../scss/components/news.scss */
+.feed-icon {
+  clear: both;
+  display: block;
+  float: right;
+  margin: 0 2px 0 0;
+}

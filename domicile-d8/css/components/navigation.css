@@ -1,0 +1,96 @@
+/**
+ * @file
+ * Navigation.css
+ *
+ * The components describing navigation and their variants. Often appears
+ * in the left-most sidebar.
+ *
+ */
+/* Defaults for all navigation */
+/* Defined as a mixin to decrease specificity issues. */
+/* Variant: Primary navigation */
+/* line 21, ../../scss/components/navigation.scss */
+.navigation--primary, #block-menu-devel-frinosiwu {
+  font-size: 110%;
+  font-family: Serif;
+  text-decoration: none;
+}
+/* line 23, ../../scss/components/navigation.scss */
+.navigation--primary a, #block-menu-devel-frinosiwu a {
+  color: #336666;
+  font-weight: normal;
+}
+/* line 28, ../../scss/components/navigation.scss */
+.navigation--primary ul.menu, #block-menu-devel-frinosiwu ul.menu {
+  border-top: 2px dotted #336666;
+}
+/* line 32, ../../scss/components/navigation.scss */
+.navigation--primary ul.menu li, #block-menu-devel-frinosiwu ul.menu li {
+  border-bottom: 2px dotted #336666;
+  list-style-image: none;
+  list-style-type: none;
+  margin: 0;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Variant: Secondary navigation */
+/* line 47, ../../scss/components/navigation.scss */
+.navigation--secondary, #block-system-main-menu {
+  font-size: 110%;
+  font-family: Serif;
+  text-decoration: none;
+}
+/* line 49, ../../scss/components/navigation.scss */
+.navigation--secondary a, #block-system-main-menu a {
+  color: #996633;
+  font-weight: normal;
+}
+/* line 54, ../../scss/components/navigation.scss */
+.navigation--secondary ul.menu, #block-system-main-menu ul.menu {
+  border-top: none;
+}
+/* line 58, ../../scss/components/navigation.scss */
+.navigation--secondary ul.menu li, #block-system-main-menu ul.menu li {
+  border-bottom: none;
+  list-style-image: none;
+  list-style-type: none;
+  margin: 0;
+  padding: 20px 10px;
+  text-align: center;
+  text-transform: uppercase;
+}
+/* line 68, ../../scss/components/navigation.scss */
+.navigation--secondary li.expanded, #block-system-main-menu li.expanded {
+  list-style-image: none;
+  list-style-type: none;
+  text-align: center;
+  text-transform: uppercase;
+}
+/* line 74, ../../scss/components/navigation.scss */
+.navigation--secondary li.expanded li, #block-system-main-menu li.expanded li {
+  font-family: Helvetica, Arial, Sans-Serif;
+  font-size: 70%;
+  padding: 0;
+  text-transform: none;
+}
+/* line 81, ../../scss/components/navigation.scss */
+.navigation--secondary li.expanded li:after, #block-system-main-menu li.expanded li:after {
+  color: #996633;
+  content: "~";
+  display: block;
+  text-align: center;
+}
+/* line 88, ../../scss/components/navigation.scss */
+.navigation--secondary li.expanded li.first:before, #block-system-main-menu li.expanded li.first:before {
+  color: #996633;
+  content: "~";
+  display: block;
+  text-align: center;
+}
+/* line 95, ../../scss/components/navigation.scss */
+.navigation--secondary li.expanded .menu a, #block-system-main-menu li.expanded .menu a {
+  display: block;
+  padding: 3px 0;
+  text-decoration: underline;
+}

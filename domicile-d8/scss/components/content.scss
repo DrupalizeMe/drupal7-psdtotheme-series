@@ -1,0 +1,40 @@
+/**
+ * @file
+ * Content.css
+ *
+ * The components describing primary content. Typically appears in the right-
+ * most sidebar.
+ *
+ */
+
+@import "init";
+
+.content--main {
+
+  h1 {
+    color: $heading;
+    margin-top: 10px;
+  }
+  
+  .node p {
+    line-height: 1.75;
+    margin-bottom: 0.5em;
+  }
+
+  .block:first-child {
+    margin-bottom: 40px;
+    p {
+      color: $default;
+      font-size: 125%;
+      font-family: $serif;
+      font-style: italic;
+      line-height: 2;
+      margin-bottom: 0.25em;
+    }
+
+    p:first-child {
+      color: $accent1st;
+      font-style: normal;
+    }
+  }
+}

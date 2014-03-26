@@ -1,0 +1,22 @@
+/**
+ * @file
+ * Copyright.css
+ *
+ * The components describing the copyright block. Appears at the bottom of pages.
+ *
+ */
+
+@import "init";
+
+#copyright {
+  border-top: 2px dotted $accent1st;
+  margin: 0 0 30px 0;
+  padding-top: 20px;
+  text-align: center;
+
+  p {
+    color: $accent1st;
+    font-family: $serif;
+    font-size: 90%;
+  }
+}
