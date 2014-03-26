@@ -103,4 +103,3 @@ Documentation should be put as close as possible to the place where it will be u
 - [CSS Coding Standards](https://drupal.org/node/1886770)
 - [Applying SMACSS to Drupal](http://atendesigngroup.com/blog/applying-smacss-drupal)
 - [Dominate the Theme Layer](http://munich2012.drupal.org/program/sessions/dominate-theme-layer.html)
-
