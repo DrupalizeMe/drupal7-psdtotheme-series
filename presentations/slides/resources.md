@@ -54,9 +54,13 @@ http://clubmate.fi/oocss-acss-bem-smacss-what-are-they-what-should-i-use/
 
 The bare minimum toolkit for "modern" front end development.
 
-- [Sass](http://sass-lang.com/) - Preprocessor for CSS
+- [Sass](http://sass-lang.com/)
+- [Less](http://lesscss.org/) 
+- [Stylus](http://learnboost.github.com/stylus/)
 - [Compass](http://compass-style.org/) - Handy shortcuts for Sass
-- [Learning series](drupalize.me/series/learning-sass-and-compass)
+- [Learning Sass and Compass](drupalize.me/series/learning-sass-and-compass)
+
+Comparison: http://code.tutsplus.com/tutorials/sass-vs-less-vs-stylus-preprocessor-shootout--net-24320
 
 ----------------------------------------------------------------
 ## CSS Frameworks
