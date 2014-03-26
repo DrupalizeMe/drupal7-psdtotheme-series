@@ -1,4 +1,4 @@
-# PSD to Theme 
+# Component-Based Web Design
 
 Emma Jane Westby 
 <br/>[@emmajanehw](http://twitter.com/emmajanehw) // [emma.westby@drupalize.me](mailto:emma.westby@drupalize.me)
