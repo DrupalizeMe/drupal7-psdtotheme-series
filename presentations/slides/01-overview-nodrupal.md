@@ -1,43 +1,132 @@
 ## What We're Going to Talk About
 
-1. PSD to Theme strategies.
-2. Theming by component.
-3. Front end documentation.
-4. Useful tools.
+1. What is component-based front end development
+2. Sample pattern libraries
+3. Converting a design to its components
+4. Sample output style guides
 
-================
-## PSD to Theme Strategies
+[Slides, Resources, and more](https://github.com/DrupalizeMe/drupal7-psdtotheme-series)
 
+---------------------------------------
+## Pro Tip
 “Are you new to front-end web development? Here's a secret: no one else really knows what they're doing either.” 
 
 Nicolas Gallagher
 
 ---------------------------------------
-## PSD to Theme Step-by-Step
+## ... but
 
-Theming by component:
+Efficient front end developers have a series of patterns in mind when they convert a design into a working web site. This is how I do it.
 
-1. Identify the design components.
-2. Create a library of basic styles according to SMACSS convention.
-3. Adjust CMS class names to match style component names.
-4. Look for bugs and refactor the component styles to match the design.
+===============================================================================
+## Pattern Libraries
+
+Your web site is a collection of rendered component patterns.
+
+---------------------------------------
+## [pea.rs](http://pea.rs/)
+
+![](assets/pears.png)
+
+---------------------------------------
+## [patternlab](http://patternlab.io/)
+
+![](assets/patternlab.png)
+
+---------------------------------------
+## [Yahoo Design Pattern Library](http://developer.yahoo.com/ypatterns/)
+
+![](assets/yahoo_design_patterns.png)
+
+---------------------------------------
+## [UI Design Patterns](http://ui-patterns.com/)
+
+![](assets/uipatterns.png)
+
+---------------------------------------
+## Insert Your Patterns Here
+
+![Drupalize.Me library of videos](assets/dme-library.png)
+
+Note: not all components fit into a pattern neatly
+
+
+===============================================================================
+## Applying Patterns
+
+---------------------------------------
+## Use Established Conventions
+
+Frameworks allow us to quickly apply conventions to a design.
+
+Note: Web development is like that time you realized you were a grown-up and you **could** eat cake every day for breakfast, but also understanding **why** you shouldn't.
+
+---------------------------------------
+## File Organization and Class Naming Conventions
+
+- [OOCSS](http://github.com/stubbornella/oocss/wiki) - Object Oriented CSS - Nicole Sullivan
+- *[SMACSS](http://smacss.com/) - Scalable and Modular Architecture for CSS - Jonathan Snook
+- [BEM](http://bem.info/method/) - Block, Element, Modifier
+- [ACSS](http://bradfrostweb.com/blog/post/atomic-web-design/) - Atomic CSS - Brad Frost
+
+* my fave
+
+---------------------------------------
+## CSS Pre-processors
+
+- Allows you to streamline what you write (and output variations after processing).
+- Allows you to use variables and short-cuts in CSS (colours! rounded borders!).
+- Allows someone else to write complicated grid systems which you can easily apply to your site.
+- Allows you to fudge semantics.
+
+---------------------------------------
+## Pre-processors
+
+- [Sass](http://sass-lang.com/)
+- [Less](http://lesscss.org/) 
+- [Stylus](http://learnboost.github.com/stylus/)
+
+Comparison: http://code.tutsplus.com/tutorials/sass-vs-less-vs-stylus-preprocessor-shootout--net-24320
+
+---------------------------------------
+## Frameworks and Toolkits
+
+- [Bootstrap](http://getbootstrap.com/)
+- [Foundation](http://foundation.zurb.com/)
+- [Susy](http://susy.oddbird.net/)
+- [Bourbon](http://neat.bourbon.io/) and [Neat](http://neat.bourbon.io/)
+
+---------------------------------------
+## Roll Your Own!
+
+- Master a convention before you try to outgrow its framework.
+- Never be afraid to refactor, or throw away a convention which is working against you.
+
+===============================================================================
+## Concepts Applied
+
+1. **Define your styles in text** according to a convention.
+2. Use a pattern library to **identify design components**.
+3. **Stub out HTML + CSS** to display your library of styles.
+4. **Refactor the component styles** until they match the design.
 
 -------------
-## Identify Design Components
+## Sneak Peak
 
-To find your components, ask yourself:
+![the domicile design](assets/domicile.png)
+
+Note: this is the design we're going to be applying our libraries and patterns to.
+
+-------------
+## Using a Convention: [SMACSS](http://smacss.com/)
+
+Describe the design in words, asking yourself:
 
 1. What’s the shape?
 2. What’s consistent?
 3. What can be moved like furniture?
 
 -------------
-## Let's See It in Action
-
-![the domicile design](assets/domicile.png)
-
-
-===============================================================================
 ## 1. What's the Shape?
 
 These are your layout rules.
@@ -69,7 +158,7 @@ grid columns for each area.
 - Content area -- right column - 6 grid columns
 - Copyright area -- footer - 12 grid columns
 
-===============================================================================
+---------------------------------------
 ## 2. What's Consistent?
 
 These are typically your base, or global, rules.
@@ -94,7 +183,7 @@ page-to-page.
 - font styling: mostly serif
 (etc)
 
-===============================================================================
+---------------------------------------
 ## 3. What Can be Moved Like Furniture?
 
 Anything you can draw a box around is a component.
@@ -120,8 +209,8 @@ Featured (4 columns) - Quotes and images
 Note: show the style guide for this
 
 
-===========
-## Document<br/>Layout, Base, Component Rules
+---------------------------------------
+## Document All of Your Rules
 
 Plain text (or Markdown) is fine!
 
