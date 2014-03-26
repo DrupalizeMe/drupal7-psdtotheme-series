@@ -1,23 +1,34 @@
 # Working with Designs
 
-Your theme is a collection of rendered patterns.
+Your web site is a collection of rendered component patterns.
 
-# Design Analysis
+------
+## Summary of Steps
+
+1. Design analysis
+2. Style guide
+3. Asset library
+4. Prototype
+5. Final build
+
+==================
+## Design Analysis
 A single design can have many interpretations
 
-Activity: write down everything that you see. Create a "style"
-guide for this design. Some things might be a single field, but
-other times it might be a cluster of elements. For example:
-identify the content and lists of content. Sometimes what you
-are observing is a container that things fit into (e.g. how
-many columns?). There are several right answers. 
+------
+## Activity: Create a "style" guide.
+
+Write down everything that you see. Some things might be a single field, but other times it might be a cluster of elements. For example: identify the content and lists of content. Sometimes what you
+are observing is a container that things fit into (e.g. how many columns?). There are several right answers. 
 
 - Ideally you'd write every item on a list which can be shuffled into categories easily. 
 - Ideally you'd have a list of patterns (from the previous
   section) to reference when doing your design analysis.
 
-Activity: as a group, review what people wrote down. There
-should be words like:
+------
+## Activity: Review
+
+As a group, review what people wrote down. There should be words like:
 
 - images/decorations
 - content/node
@@ -26,21 +37,19 @@ should be words like:
 - navigation
 - headings
 
-There are definitely three regions on the design. It's not
-clear how items #4 and #5 should be rendered. Depending on how
-the banner image is added to the design, it’s possible you’d
-want to make that a region too.
+Note: There are definitely three regions on the design. It's not clear how items #4 and #5 should be rendered. Depending on how the banner image is added to the design, it’s possible you’d want to make that a region too.
 
-Discussion: what are some of the reasons to create #4 and #5 as
-their own regions? What are some of the drawbacks to doing
-this?
+Note: Discussion: what are some of the reasons to create #4 and #5 as their own regions? What are some of the drawbacks to doing this?
 
-# Style Guide
+==================
+## Style Guide
 - A style guide is a summary of patterns which is used to
   implement content in a consistent manner.
 - It establishes the expected behaviour for future content.
 
-Activity:
+---------------
+## Activity
+
 Categorize the elements you identified from the Domicile design
 into the following categories:
 
@@ -48,29 +57,31 @@ into the following categories:
 - Layout
 - Component
 
-Activity: create TXT file stubs for base, layout, and one for
+Create TXT file stubs for base, layout, and one for
 each component. These will become your Sass files. Organize your
 style guide, and add text-based details for everything you've
 identified which needs styling.
 
-# Asset Library
+====================
+## Asset Library
 
-Non-editorial / static images that are not uploaded as part of
-the site’s content. Typically persistent from screen-to-screen
-(e.g. logo or banner).
+Non-editorial / static images that are not uploaded as part of the site’s content. Typically persistent from screen-to-screen (e.g. logo or banner). Your asset library extends your style guide with relevant binary assets (images).
 
-Your asset library extends your style guide with relevant
-binary assets (images).
+---------------
+## Activity
 
 You can get the PSD file from:  https://github.com/emmajane/psdtotheme/tree/master/design
 
 The extracted assets are at: https://github.com/emmajane/psdtotheme/tree/master/design_assets
 
-# Prototype
+====================
+## Prototype
 
 - A web page which can be viewed as flat HTML + CSS.
+- For example: http://drupalizeme.github.io/prototypes/
+
+---------------
+## Activity
 
 - Choose your grid framework and start building based on the
   style guide you established previously.
-
-- For example: 
