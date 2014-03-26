@@ -27,7 +27,7 @@ http://clubmate.fi/oocss-acss-bem-smacss-what-are-they-what-should-i-use/
 ----------------------------------------------------------------
 ## Grid Frameworks
 
-- [Bootstrap](http://bootstraptour.com/)
+- [Bootstrap](http://getbootstrap.com/)
 - [Foundation](http://foundation.zurb.com/)
 - [Susy](http://susy.oddbird.net/)
 - [Bourbon](http://neat.bourbon.io/) and [Neat](http://neat.bourbon.io/)
