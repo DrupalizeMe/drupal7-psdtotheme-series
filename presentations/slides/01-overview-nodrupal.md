@@ -310,7 +310,7 @@ h1, h2, h3 {
 - Convert your design into words.
 - Group the words according to an organizational framework, such as SMACSS.
 - Write the pseudo-code for your styles.
-- Convert the pseduo-code to a prototype.
+- Convert the pseduo-code to a prototype, using a CSS (grid) framework.
 - Iterate and improve in the browser.
 
 ---------------------------------------
