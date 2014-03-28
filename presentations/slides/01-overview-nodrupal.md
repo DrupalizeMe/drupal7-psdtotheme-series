@@ -304,7 +304,7 @@ h1, h2, h3 {
 - Put duplicate styles into variables and mixins.
 - Match your file name to your style class.
 
----------------------------------------
+========================================
 ## Summary
 
 - Convert your design into words.
