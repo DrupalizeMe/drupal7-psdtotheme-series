@@ -303,3 +303,21 @@ h1, h2, h3 {
 ````
 - Put duplicate styles into variables and mixins.
 - Match your file name to your style class.
+
+---------------------------------------
+## Summary
+
+- Convert your design into words.
+- Group the words according to an organizational framework, such as SMACSS.
+- Write the pseudo-code for your styles.
+- Convert the pseduo-code to a prototype.
+- Iterate and improve in the browser.
+
+---------------------------------------
+## Resources
+
+- [Drupalize.Me](http://drupalize.me) - videos on Sass,
+  Compass, and PSD to Theme for Drupal.
+- [Resources for Component-Driven Web Design](https://github.com/DrupalizeMe/drupal7-psdtotheme-series/blob/master/presentations/slides/resources.md)
+- [@emmajanehw](http://twitter.com/emmajanehw) - opinionated shenanigans
+- [@drupalizeme](http://twitter.com/drupalizeme) - high quality resource / link feed
