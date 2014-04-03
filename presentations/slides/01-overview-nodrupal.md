@@ -31,7 +31,9 @@ Your web site is a collection of rendered component patterns.
 ---------------------------------------
 ## [patternlab](http://patternlab.io/)
 
-![](assets/patternlab.png)
+<script type="text/template">
+  <!-- .slide: data-background-image="https://s3.amazonaws.com/hakim-static/reveal-js/arrow.png" --></p>
+</script>
 
 ---------------------------------------
 ## [Yahoo Design Pattern Library](http://developer.yahoo.com/ypatterns/)
