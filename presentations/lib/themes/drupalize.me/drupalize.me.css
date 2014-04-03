@@ -59,6 +59,18 @@ body {
   margin-bottom: 1em;
 }
 
+.bgimage .reveal h2 {
+  background-color: darkgrey;
+  margin-left: -50%;
+  opacity: 0.95;
+  padding: .75em;
+  width: 200%;
+}
+
+.bgimage .reveal h2, .bgimage .reveal h2 a {
+  color: whitesmoke;
+}
+
 /*********************************************
  * TEXT STYLES
  *********************************************/
@@ -90,6 +102,12 @@ body {
 /*********************************************
  * IMAGES
  *********************************************/
+
+.reveal .slide-background.present {
+  top: 0;
+  left: 0;
+}
+
 .reveal section img {
   margin: 15px 0px;
   background: rgba(255, 255, 255, 0.12);

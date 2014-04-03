@@ -5,7 +5,10 @@
 3. Converting a design to its components
 4. Sample output style guides
 
-[Slides, Resources, and more](https://github.com/DrupalizeMe/drupal7-psdtotheme-series)
+---------------------------------------
+## Slides, Resources, and more
+
+https://github.com/DrupalizeMe/drupal7-psdtotheme-series
 
 ---------------------------------------
 ## Pro Tip
@@ -16,7 +19,10 @@ Nicolas Gallagher
 ---------------------------------------
 ## ... but
 
-Efficient front end developers have a series of patterns in mind when they convert a design into a working web site. This is how I do it.
+Efficient front end developers have
+a series of patterns in mind when they convert a design into a working web site.
+
+<span class="fragment">This is how I do it.</span>
 
 ===============================================================================
 ## Pattern Libraries
@@ -26,31 +32,37 @@ Your web site is a collection of rendered component patterns.
 ---------------------------------------
 ## [pea.rs](http://pea.rs/)
 
-![](assets/pears.png)
+<!-- .slide: data-background-image="assets/pears.png" -->
+<!-- .slide: data-background-position="top left" -->
+<!-- .slide: data-state="bgimage" -->
 
 ---------------------------------------
 ## [patternlab](http://patternlab.io/)
 
-<script type="text/template">
-  <!-- .slide: data-background-image="https://s3.amazonaws.com/hakim-static/reveal-js/arrow.png" --></p>
-</script>
+<!-- .slide: data-background-image="assets/patternlab.png" -->
+<!-- .slide: data-background-position="top left" -->
+<!-- .slide: data-state="bgimage" -->
 
 ---------------------------------------
 ## [Yahoo Design Pattern Library](http://developer.yahoo.com/ypatterns/)
 
-![](assets/yahoo_design_patterns.png)
+<!-- .slide: data-background-image="assets/yahoo_design_patterns.png" -->
+<!-- .slide: data-background-position="top left" -->
+<!-- .slide: data-state="bgimage" -->
 
 ---------------------------------------
 ## [UI Design Patterns](http://ui-patterns.com/)
 
-![](assets/uipatterns.png)
+<!-- .slide: data-background-image="assets/uipatterns.png" -->
+<!-- .slide: data-background-position="top left" -->
+<!-- .slide: data-state="bgimage" -->
 
 ---------------------------------------
 ## Insert Your Patterns Here
 
-![Drupalize.Me library of videos](assets/dme-library.png)
-
-Note: not all components fit into a pattern neatly
+<!-- .slide: data-background-image="assets/dme-library.png" -->
+<!-- .slide: data-background-position="top left" -->
+<!-- .slide: data-state="bgimage" -->
 
 
 ===============================================================================
@@ -67,11 +79,11 @@ Note: Web development is like that time you realized you were a grown-up and you
 ## File Organization and Class Naming Conventions
 
 - [OOCSS](http://github.com/stubbornella/oocss/wiki) - Object Oriented CSS - Nicole Sullivan
-- *[SMACSS](http://smacss.com/) - Scalable and Modular Architecture for CSS - Jonathan Snook
+- [SMACSS](http://smacss.com/)* - Scalable and Modular Architecture for CSS - Jonathan Snook
 - [BEM](http://bem.info/method/) - Block, Element, Modifier
 - [ACSS](http://bradfrostweb.com/blog/post/atomic-web-design/) - Atomic CSS - Brad Frost
 
-* my fave
+<p style="text-align: left; margin-top: 1em" class="fragment fade-in">my fave is *</p>
 
 ---------------------------------------
 ## CSS Pre-processors
@@ -115,7 +127,9 @@ Comparison: http://code.tutsplus.com/tutorials/sass-vs-less-vs-stylus-preprocess
 -------------
 ## Sneak Peak
 
-![the domicile design](assets/domicile.png)
+<!-- .slide: data-background-image="assets/domicile.png" -->
+<!-- .slide: data-background-position="top left" -->
+<!-- .slide: data-state="bgimage" -->
 
 Note: this is the design we're going to be applying our libraries and patterns to.
 
@@ -136,29 +150,44 @@ These are your layout rules.
 -------------
 ## Identify the Grid
 
-![the domicile design with a grid overlay showing 12 grid columns and gutters](assets/domicile-grid-overlay.png)
+<!-- .slide: data-background-image="assets/domicile-grid-overlay.png" -->
+<!-- .slide: data-background-position="top left" -->
+<!-- .slide: data-state="bgimage" -->
+
+Note: the domicile design with a grid overlay showing 12 grid columns and gutters
 
 -------------
 ## Locate the Containers
 
-![the domicile design with three layout columns highlighted in yellow](assets/domicile-regions.png)
+<!-- .slide: data-background-image="assets/domicile-regions.png" -->
+<!-- .slide: data-background-position="top left" -->
+<!-- .slide: data-state="bgimage" -->
+
+Note: the domicile design with three layout columns highlighted in yellow
 
 -------------
 ## Abstract the Design to a Wireframe
 
-![the domicile design as a wireframe](assets/domicile-wireframe.png)
+<!-- .slide: data-background-image="assets/domicile-wireframe.png" -->
+<!-- .slide: data-background-position="top left" -->
+<!-- .slide: data-state="bgimage" -->
+
+Note: the domicile design as a wireframe
 
 ---------
 ## Write Down Your Layout Rules
 
-The shape of your web site, including the number of 
-grid columns for each area.
+- Name
+- Terse description
+- Number of grid columns for each area
 
+````
 - Banner Area -- large image - 12 grid columns
 - Navigation area -- left column - 2 grid columns
 - Featured area -- center column - 4 grid columns
 - Content area -- right column - 6 grid columns
 - Copyright area -- footer - 12 grid columns
+````
 
 ---------------------------------------
 ## 2. What's Consistent?
@@ -175,15 +204,17 @@ These are typically your base, or global, rules.
 ---------
 ## Write Down Your Base Rules
 
-HTML element re-writes that are consistent from
-page-to-page.
+Design elements which are consistent from page-to-page.
 
+````
+Colors:
 - darker gray -- #666666 -- most text "default"
 - lighter gray -- #999999 -- headings
 - green ish -- #336666 -- primary accent colour
 - brownish -- #996633 -- secondary accent colour
 - font styling: mostly serif
 (etc)
+````
 
 ---------------------------------------
 ## 3. What Can be Moved Like Furniture?
@@ -193,22 +224,33 @@ Anything you can draw a box around is a component.
 ---------------------------------------
 ## Screen Captures Make Good Boxes 
 
-![the domicile design cut into components](assets/components-collated.png)
+<!-- .slide: data-background-image="assets/components-collated.png" -->
+<!-- .slide: data-background-position="top left" -->
+<!-- .slide: data-state="bgimage" -->
 
-Note: To easily identify components, start taking screen captures of your PSD file.
+Note: the domicile design cut into components. To easily identify components, start taking screen captures of your PSD file.
 
 -----
 ## Write Down Your Components
 
+- Component Name
+- Width (per build/break point if relevant)
+- Terse description
+- Characteristics
+- Screen shot
+
+-----
+## Sample Component
+
+````
 Featured (4 columns) - Quotes and images
 
 - primary decoration
 - image of a plate + headings
 - Sample design: component-feature-decoration-primary.png
+````
 
 ![the feature component](assets/component-feature-decoration-primary.png)
-
-Note: show the style guide for this
 
 
 ---------------------------------------
@@ -313,6 +355,7 @@ h1, h2, h3 {
 - Group the words according to an organizational framework, such as SMACSS.
 - Write the pseudo-code for your styles.
 - Convert the pseduo-code to a prototype, using a CSS (grid) framework.
+- Opt for many small files to avoid version control conflicts when refactoring.
 - Iterate and improve in the browser.
 
 ---------------------------------------
