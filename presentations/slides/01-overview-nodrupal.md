@@ -64,6 +64,7 @@ Your web site is a collection of rendered component patterns.
 <!-- .slide: data-background-position="top left" -->
 <!-- .slide: data-state="bgimage" -->
 
+<img src="assets/dme-library.png" alt="Video page from Drupalize.Me Web site circa 2013" class="noshow" />
 
 ===============================================================================
 ## Applying Patterns
@@ -154,6 +155,8 @@ These are your layout rules.
 <!-- .slide: data-background-position="top left" -->
 <!-- .slide: data-state="bgimage" -->
 
+<img src="assets/domicile-grid-overlay.png" class="noshow" />
+
 Note: the domicile design with a grid overlay showing 12 grid columns and gutters
 
 -------------
@@ -163,6 +166,8 @@ Note: the domicile design with a grid overlay showing 12 grid columns and gutter
 <!-- .slide: data-background-position="top left" -->
 <!-- .slide: data-state="bgimage" -->
 
+<img src="assets/domicile-regions.png" class="noshow" />
+
 Note: the domicile design with three layout columns highlighted in yellow
 
 -------------
@@ -171,6 +176,8 @@ Note: the domicile design with three layout columns highlighted in yellow
 <!-- .slide: data-background-image="assets/domicile-wireframe.png" -->
 <!-- .slide: data-background-position="top left" -->
 <!-- .slide: data-state="bgimage" -->
+
+<img src="assets/domicile-wireframe.png" class="noshow" />
 
 Note: the domicile design as a wireframe
 
