@@ -1,114 +1,74 @@
-## Theming By Component
+===============================================================================
+## Component / Pattern Libraries
 
-The way we perceive a design as a themer, might not be the way a site is built. Having a conversation early, and often, about
-components will help us create a flexible Web site.
+Your web site is a collection of rendered component patterns.
 
-![Journal Crunch theme](assets/journalcrunch-regions.png)
+---------------------------------------
+## [pea.rs](http://pea.rs/)
 
-------
-## Theming by Component
+<!-- .slide: data-background-image="assets/pears.png" -->
+<!-- .slide: data-background-position="top left" -->
+<!-- .slide: data-state="bgimage" -->
 
-![MVT -> UX](assets/mvt-ux.png)
+---------------------------------------
+## [patternlab](http://patternlab.io/)
 
-Note: we're going to start with a basic theme and then fix things until the UX is consistent with our design.
+<!-- .slide: data-background-image="assets/patternlab.png" -->
+<!-- .slide: data-background-position="top left" -->
+<!-- .slide: data-state="bgimage" -->
 
------
-## Style Framework
+---------------------------------------
+## [Yahoo Design Pattern Library](http://developer.yahoo.com/ypatterns/)
 
-![Image: Base, Layout, Components](assets/style-framework.png)
+<!-- .slide: data-background-image="assets/yahoo_design_patterns.png" -->
+<!-- .slide: data-background-position="top left" -->
+<!-- .slide: data-state="bgimage" -->
 
-Note: Throughout the day we're going to focus on three areas: Base, Layout, and Component rules. I've been working on this way "forever", but it was the OOCSS culture that put a name onto the structure. There's more to it than these three rules, but this framework is a great starting point. Read www.smacss.com for more details.
+---------------------------------------
+## [UI Design Patterns](http://ui-patterns.com/)
 
------
-## Atomic Design
+<!-- .slide: data-background-image="assets/uipatterns.png" -->
+<!-- .slide: data-background-position="top left" -->
+<!-- .slide: data-state="bgimage" -->
 
-Web systems are built from components.
+---------------------------------------
+## Activity: Create a Component Library
 
-A **page** is a unit of business intent which is assembled from a series of **region** which are filled with content **blocks** and **entities* which are a collection of **fields**.
+Component Libraries are a way to catalog things which will appear on a particular Web site.
 
-Note: The three focal points: Base/Layout/Component divide our styles into categories, but we must also work in terms of "size". I always try to theme from "biggest" to "smallest" targets. Brad Frost has given the language of "Atomic Design". Again, nothing more than a clever name for something we've been doing for ages.
-
------
-## Name It
-
-You can't theme something you cannot describe with words. Being able to describe a problem with words is the gateway to coding a solution.
+Using pea.rs as a reference, let's name the components on the following two designs.
 
 
-------
-## Design Forensics
+Note: You can't theme something you cannot describe with words. Being able to describe a problem with words is the gateway to coding a solution.
 
-Using the Journal Crunch example, let's dissect the design into its components.
-
-- Page
-- Regions
-- Collections of content (a "view") 
-- Collections of fields (a "node")
-- Fields
 
 ------
-## Page
+## Activity: Describe the Components on this Page
 
-Image: Journal Crunch theme home page.
-![Journal Crunch regions](assets/journalcrunch-regions.png)
+![Journal Crunch regions](assets/journalcrunch.png)
 
 Note: given this page, create a simple sketch of the regions you might create for this design.
 
 ------
-## Regions
+## Activity: Describe the Components on this Page
 
-![Journal Crunch regions](assets/journalcrunch-regions.png)
-
-Note: Regions: Utility links, Header, Hero/Featured content, Footer
+![Journal Crunch regions](assets/journalcrunch.png)
 
 ------
-## Collections of Content
+## Activity: What's NOT a Component?
 
-- Static navigation ("menus")
-- Dynamic lists of content ("views")
+![Journal Crunch regions](assets/journalcrunch.png)
 
-Note: On the Journal Crunch example: what are two examples of static navigation; and a dynamic list?
-
-----
-## Content Patterns
-
-- Basic content
-- Time stamped content
-- Future events
-- Callouts
-- Resources
-- Related items
-- Directory of people
-- Data collection
-- Non-editorial (ads, logo, "decoration")
-- etc!
+Note: layout and base rules. Write them down to the side for now. We need to know this information, but we're not going to use it yet.
 
 ------
-## Fields
+## Activity: Describe the Components on YOUR Web Site
 
-- Text
-- Date
-- Taxonomy
-- Numbers
-- Files
-- Choices
-- Link
-- References
+# www.???.com
 
------
-## Resources
+------
+## Summary
 
-- [Pears](http://pea.rs) common pattern of markup and styles.
-- [Atomic Design](http://bradfrostweb.com/ blog/post/atomic-web-design/)
-- [Designing Web Systems](http://fourkitchens.com/presentations)
-
-----
-## Activity: Create a Pattern Vocabulary
-
-What should/could you be looking for in your designs?
-
-Using the following headings, write down a list of every type of component you can think of:
-
-- Content type
-- Aggregation of content
-- Navigation
-- Other? (create your own category!)
+- Pattern, or Component, Libraries range from the very simple, to the very "enterprise".
+- By recognizing components in your web site, you more quickly apply HTML+CSS patterns in your front end work.
+- Using written words to describe designs is the first step in converting a design to code.
