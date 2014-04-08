@@ -171,7 +171,7 @@ Note: the domicile design with a grid overlay showing 12 grid columns and gutter
 Note: the domicile design with three layout columns highlighted in yellow
 
 -------------
-## Abstract the Design to a Wireframe
+## Abstract the Design to a Sketch
 
 <!-- .slide: data-background-image="assets/domicile-wireframe.png" -->
 <!-- .slide: data-background-position="top left" -->

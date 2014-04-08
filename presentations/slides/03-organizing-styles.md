@@ -1,8 +1,4 @@
-===============================================================================
 ## Organizing Styles
-
-----------
-## SMACSS Rules
 
 ![Image: Base, Layout, Components](assets/style-framework.png)
 
@@ -15,7 +11,7 @@ SMACSS was created by Jonathan Snook
 http://smacss.com/
 
 ----------
-## SMACSS Rules
+## All SMACSS Rules
 
 - Base rules (HTML element overrides)
 - Layout rules (wire frames)
@@ -24,10 +20,10 @@ http://smacss.com/
 - Theme rules (variations)
 
 ----------
-## Sort your Styles
+## Simplified SMACSS
 
 - ``components``
-  - almost everything (as single files!)
+  - almost everything
 - ``base`` OR ``global``
   - HTML elements
   - resets and overrides
@@ -35,10 +31,9 @@ http://smacss.com/
   - grid framework and layout definitions
   - preserve your sanity by using a framework
 
-
 ----------
-## Sample File Naming Conventions
+## Summary
 
-- ``components/style-name.scss`` // match the file name to your class name
-- ``layout/X`` // depends on your grid framework
-- ``base.scss``
+- We use standard libraries and organizational framework to help make our styles predictable, and findable for our future selves.
+- We know sometimes the rules in frameworks are too rigid, and we may choose to bend the rules sometimes.
+- We allow ourselves to pick and choose from frameworks where it suits our needs...and simplify them when necessary.

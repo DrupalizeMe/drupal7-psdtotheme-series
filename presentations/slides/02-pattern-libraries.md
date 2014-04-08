@@ -1,4 +1,3 @@
-===============================================================================
 ## Component / Pattern Libraries
 
 Your web site is a collection of rendered component patterns.
@@ -39,27 +38,43 @@ Component Libraries are a way to catalog things which will appear on a particula
 Using pea.rs as a reference, let's name the components on the following two designs.
 
 
-Note: You can't theme something you cannot describe with words. Being able to describe a problem with words is the gateway to coding a solution.
+Note: You can't theme something you cannot describe with words. Being able to describe a problem with words is the gateway to coding a solution. Ignore layout and base rules. Have students write them down to the side for now. We need to know this information, but we're not going to use it yet.
+
+------
+## Hint: We can draw boxes around components
+
+<!-- .slide: data-background-image="assets/components-collated.png" -->
+<!-- .slide: data-background-position="top left" -->
+<!-- .slide: data-state="bgimage" -->
 
 
 ------
-## Activity: Describe the Components on this Page
+## Activity: Describe the Components on THIS Page
 
-![Journal Crunch regions](assets/journalcrunch.png)
-
-Note: given this page, create a simple sketch of the regions you might create for this design.
-
-------
-## Activity: Describe the Components on this Page
-
-![Journal Crunch regions](assets/journalcrunch.png)
+<!-- .slide: data-background-image="assets/domicile.png" -->
+<!-- .slide: data-background-position="top left" -->
+<!-- .slide: data-state="bgimage" -->
 
 ------
 ## Activity: What's NOT a Component?
 
-![Journal Crunch regions](assets/journalcrunch.png)
+<!-- .slide: data-background-image="assets/domicile.png" -->
+<!-- .slide: data-background-position="top left" -->
+<!-- .slide: data-state="bgimage" -->
 
-Note: layout and base rules. Write them down to the side for now. We need to know this information, but we're not going to use it yet.
+------
+## Activity: Describe the Components on this Page
+
+<!-- .slide: data-background-image="assets/journalcrunch.png" -->
+<!-- .slide: data-background-position="top left" -->
+<!-- .slide: data-state="bgimage" -->
+
+------
+## Activity: What's NOT a Component?
+
+<!-- .slide: data-background-image="assets/journalcrunch.png" -->
+<!-- .slide: data-background-position="top left" -->
+<!-- .slide: data-state="bgimage" -->
 
 ------
 ## Activity: Describe the Components on YOUR Web Site
@@ -70,5 +85,6 @@ Note: layout and base rules. Write them down to the side for now. We need to kno
 ## Summary
 
 - Pattern, or Component, Libraries range from the very simple, to the very "enterprise".
-- By recognizing components in your web site, you more quickly apply HTML+CSS patterns in your front end work.
 - Using written words to describe designs is the first step in converting a design to code.
+- Components are things we can draw a box around. Not all styles are components.
+- By recognizing components in your web site, you will be able to apply HTML+CSS patterns faster in your front end work.
