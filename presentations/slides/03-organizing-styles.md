@@ -1,5 +1,12 @@
 ===============================================================================
-## Intro to SMACSS
+## Organizing Styles
+
+----------
+## SMACSS Rules
+
+![Image: Base, Layout, Components](assets/style-framework.png)
+
+Note: We'll focus on three of these: Base, Layout, and Component
 
 ---------------------------------------
 ## Scalable and Modular Architecture for CSS
@@ -17,34 +24,21 @@ http://smacss.com/
 - Theme rules (variations)
 
 ----------
-## Folder Structure
+## Sort your Styles
 
+- ``components``
+  - almost everything (as single files!)
 - ``base`` OR ``global``
   - HTML elements
   - resets and overrides
-- ``components``
-  - almost everything (as single files!)
 - ``layout``
   - grid framework and layout definitions
+  - preserve your sanity by using a framework
+
 
 ----------
-## file: ``styles.scss``
+## Sample File Naming Conventions
 
-imports all of your style files
-
-----------
-## directory: ``components``
-
-![contents of the components directory; including the _components.scss file of doom](assets/components.jpg)
-
----------------------------------------
-## Pro Tip
-
-Let your base theme take care of your requirements for:
-
-- grid framework
-- accessibility compliance
-- responsive defaults
-
-
-
+- ``components/style-name.scss`` // match the file name to your class name
+- ``layout/X`` // depends on your grid framework
+- ``base.scss``
