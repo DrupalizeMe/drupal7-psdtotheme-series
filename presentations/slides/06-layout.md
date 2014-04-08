@@ -1,4 +1,4 @@
-## Layout Rules
+## Rules for Layout
 
 The shapes which your components fit into.
 

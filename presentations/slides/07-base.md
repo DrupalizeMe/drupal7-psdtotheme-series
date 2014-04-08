@@ -1,4 +1,4 @@
-## Base Rules
+## Rules for (Base) Consistency
 
 Styles which can be applied across multiple components, for example the color of a heading, are your base rules.
 
