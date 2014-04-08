@@ -75,7 +75,17 @@ CSS frameworks are pre-prepared libraries that are meant to allow for easier, mo
 - [etc...](http://en.wikipedia.org/wiki/CSS_frameworks)
 
 ----------------------------------------------------------------
-## Style Guide: Human-readable
+## Style Guides
+
+There are essentially three types of style guides:
+
+- Plain text, with screen shot / picture references
+- Curated style pages
+- Automated style guides
+
+
+----------------------------------------------------------------
+### Style Guide: Curated Style Pages
 
 A living style guide is ideal. It gives examples of what the rendered CSS should look like in a browser. These are generally compiled at the end of the design phase; however, front end developers should consider having an in-code style guide as well (or instead of) this type of style guide.
 
@@ -91,11 +101,11 @@ Examples:
 - [Drupalize.Me (unfinished)](http://justinharrelllullabot.github.io)
 
 ----------------------------------------------------------------
-## Style Guide: In-code
+### Style Guide: Automated Style Guides
 
 Documentation should be put as close as possible to the place where it will be used. Any time documentation is abstracted, or re-written, and put into a different location it risks becoming out of date. The following automated style guides are still "works in progress" and not necessarily current best practices for compiling style-related documentation.
 
-- [Knyle Style Sheets](http://warpspire.com/kss/styleguides/) or [kss-node](https://github.com/hughsk/kss-node)
+- [kss-node](https://github.com/hughsk/kss-node) which is based on [Knyle Style Sheets](http://warpspire.com/kss/styleguides/)
 - [Tdcss.js](http://jakobloekke.github.io/tdcss.js/)
 - [Kalei Style Guide](http://kaleistyleguide.com/)
 - [StyleDocco](http://jacobrask.github.io/styledocco/)
