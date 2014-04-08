@@ -1,11 +1,7 @@
 # Thanks!
 
-Questions? 
-
-Tell us how we did: http://drupalize.me/survey/badcamp2013
-
-Slides: http://lb.cm/psdtotheme-acquia
+Tell us how we did: http://drupalize.me/survey/minnewebcon
 
 Emma Jane Westby // [@emmajanehw](http://twitter.com/emmajanehw) // [emma.westby@drupalize.me](mailto:emma.westby@drupalize.me)
 
-Greg Dunlap // [@heyrocker](http://twitter.com/heyrocker) // [greg.dunlap@lullabot.com](mailto:greg.dunlap@lullabot.com)
+Joe Shindelar // [@eojthebrave](http://twitter.com/eojthebrave) // [joe.shindelar@drupalize.me](mailto:joe.shindelar@drupalize.me)
