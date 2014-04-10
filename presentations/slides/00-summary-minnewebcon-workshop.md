@@ -8,12 +8,17 @@
 - Iterate and improve in the browser.
 
 ---------------------------------------
-## What We Talked About
+## Examples We Reviewed / Discussed
 
-1. What is component-based front end development
-2. Sample pattern libraries
-3. Converting a design to its components
-4. Sample output style guides
+1. Pattern libraries
+2. Style guides
+
+---------------------------------------
+## What We Built
+
+1. Pattern library
+2. Sorted list of styles
+3. Pseudo-code using Sass
 
 ---------------------------------------
 ## Slides, Resources, and more

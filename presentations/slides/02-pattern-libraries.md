@@ -35,46 +35,57 @@ Your web site is a collection of rendered component patterns.
 
 Component Libraries are a way to catalog things which will appear on a particular Web site.
 
-Using pea.rs as a reference, let's name the components on the following two designs.
+Using pea.rs as a reference, let's name the components on the following design files.
 
 
 Note: You can't theme something you cannot describe with words. Being able to describe a problem with words is the gateway to coding a solution. Ignore layout and base rules. Have students write them down to the side for now. We need to know this information, but we're not going to use it yet.
 
 ------
-## Hint: We can draw boxes around components
+## Team Page
 
-<!-- .slide: data-background-image="assets/components-collated.png" -->
+<!-- .slide: data-background-image="assets/AnggaPutra_team_psd.png" -->
 <!-- .slide: data-background-position="top left" -->
 <!-- .slide: data-state="bgimage" -->
 
+Note: the main component is in the middle of the page. They may also identify "edge" components such as the header or footer nav items.
 
 ------
-## Activity: Describe the Components on THIS Page
+## Portfolio Page
 
-<!-- .slide: data-background-image="assets/domicile.png" -->
+<!-- .slide: data-background-image="assets/AnggaPutra_portfolio_psd.png" -->
 <!-- .slide: data-background-position="top left" -->
 <!-- .slide: data-state="bgimage" -->
 
-------
-## Activity: What's NOT a Component?
-
-<!-- .slide: data-background-image="assets/domicile.png" -->
-<!-- .slide: data-background-position="top left" -->
-<!-- .slide: data-state="bgimage" -->
+Note: another simple one. identify the portfolio squares in the middle of the page. There is also navigation tabs at the top.
 
 ------
-## Activity: Describe the Components on this Page
+## Contact Page
 
-<!-- .slide: data-background-image="assets/journalcrunch.png" -->
+<!-- .slide: data-background-image="assets/AnggaPutra_contact_psd.png" -->
 <!-- .slide: data-background-position="top left" -->
 <!-- .slide: data-state="bgimage" -->
 
 ------
-## Activity: What's NOT a Component?
+## Blog
 
-<!-- .slide: data-background-image="assets/journalcrunch.png" -->
+<!-- .slide: data-background-image="assets/AnggaPutra_blog_psd.png" -->
 <!-- .slide: data-background-position="top left" -->
 <!-- .slide: data-state="bgimage" -->
+
+------
+## Home Page
+
+<!-- .slide: data-background-image="assets/AnggaPutra_home_psd.png" -->
+<!-- .slide: data-background-position="top left" -->
+<!-- .slide: data-state="bgimage" -->
+
+------
+## Content Page
+
+<!-- .slide: data-background-image="assets/AnggaPutra_page-2col_psd.png" -->
+<!-- .slide: data-background-position="top left" -->
+<!-- .slide: data-state="bgimage" -->
+
 
 ------
 ## Activity: Describe the Components on YOUR Web Site

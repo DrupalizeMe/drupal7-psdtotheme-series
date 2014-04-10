@@ -3,37 +3,37 @@
 The shapes which your components fit into.
 
 -------------
-## Identify the Grid
+## Home Page
 
-<!-- .slide: data-background-image="assets/domicile-grid-overlay.png" -->
+<!-- .slide: data-background-image="assets/AnggaPutra_home_psd.png" -->
 <!-- .slide: data-background-position="top left" -->
 <!-- .slide: data-state="bgimage" -->
 
-<img src="assets/domicile-grid-overlay.png" class="noshow" />
+<img src="assets/AnggaPutra_home_psd.png" class="noshow" />
 
-Note: the domicile design with a grid overlay showing 12 grid columns and gutters
+Note: 2 column design in the main page. No obvious grid if we take a ruler to the edges. Consider unifying the columns for ease later on.
 
 -------------
 ## Locate the Containers
 
-<!-- .slide: data-background-image="assets/domicile-regions.png" -->
+<!-- .slide: data-background-image="assets/AnggaPutra_home_layout.png" -->
 <!-- .slide: data-background-position="top left" -->
 <!-- .slide: data-state="bgimage" -->
 
-<img src="assets/domicile-regions.png" class="noshow" />
+<img src="assets/AnggaPutra_home_layout.png" class="noshow" />
 
-Note: the domicile design with three layout columns highlighted in yellow
+Note: color over your design to identify the regions
 
 -------------
-## Abstract the Design to a Sketch
+## If It Helps: Re-Sketch
 
-<!-- .slide: data-background-image="assets/domicile-wireframe.png" -->
+<!-- .slide: data-background-image="assets/AnggaPutra_sketched.png" -->
 <!-- .slide: data-background-position="top left" -->
 <!-- .slide: data-state="bgimage" -->
 
-<img src="assets/domicile-wireframe.png" class="noshow" />
+<img src="assets/AnggaPutra_sketched.png" class="noshow" />
 
-Note: the domicile design as a wireframe
+Note: use whatever notes you need to make sense of the picture
 
 ---------
 ## Write Down Your Layout Rules
@@ -44,10 +44,8 @@ Note: the domicile design as a wireframe
 
 ````
 - Banner Area -- large image - 12 grid columns
-- Navigation area -- left column - 2 grid columns
-- Featured area -- center column - 4 grid columns
-- Content area -- right column - 6 grid columns
-- Copyright area -- footer - 12 grid columns
+- Secondary content -- right column - 3 grid columns
+- Main area -- left column - 9 grid columns
 ````
 
 -------------
@@ -63,16 +61,16 @@ $ninesixty-columns: 12;
 .fullwidth {
   @include grid-container;
   
-  #nav {
+  .banner {
     @include grid(2);
   }
 
-  #featured {
-    @include grid(4);
+  .content--primary {
+    @include grid(9);
   }
 
-  #content {
-    @include grid(6);
+  .content--secondary {
+    @include grid(3);
   }
 }
 ````

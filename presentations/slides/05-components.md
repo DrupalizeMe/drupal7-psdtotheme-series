@@ -6,7 +6,7 @@ Anything you can draw a box around is a component.
 ## Write Down Your Components
 
 - Component Name
-- Width (per build/break point if relevant)
+- Width (including build/break point details if relevant)
 - Terse description
 - Characteristics
 - Screen shot
@@ -15,30 +15,51 @@ Anything you can draw a box around is a component.
 ## Sample Component
 
 ````
-Featured (4 columns) - Quotes and images
+Blog summary (4 columns)
 
-- primary decoration
-- image of a plate + headings
-- Sample design: component-feature-decoration-primary.png
+- Blog title
+- Date
+- Number of comments
+- Text summary
+- "Expand" icon
+
+Sample design: component-blog-summary.png
+
 ````
 
-![the feature component](assets/component-feature-decoration-primary.png)
+![blog component](assets/AnggaPutra_blog_psd_component.png)
 
 
 -----------
 ## Component Rules
 
-File name: ``components/_news-teaser.scss``
+File name: ``components/_blog.scss``
 
 Sample Sass content:
 
 ````
-.news-teaser {
-  h2 { text-transform: uppercase; }
-  p:first-child { color: $accent1st; }
-  p { color: $default; }
+.blog {
+  __title {
+    // defaults are fine
+  }
+  __date {
+    @extend .subtitle;
+  }
+  __summary {
+    // defaults are fine
+  }
+  __comments {
+    background-image: url('balloon.png');
+    color: $secondary;
+  }
+  __expand {
+    background-image: url('arrow-down.png');
+    border-bottom: 1px solid $maincolor;
+  }
 }
 ````
+
+Note: trying to follow BEM conventions for naming. http://bem.info/method/definitions/
 
 -----------
 ## Summary

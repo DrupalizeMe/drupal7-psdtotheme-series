@@ -14,17 +14,27 @@ Joe Shindelar
 Note: Emma has been doing Drupal 10+ years, started from scratch all the way to core contributor, passionate about version control and developer workflow, former front end dev.
 
 ---------------------------------------
-## What We're Going to Talk About
+## What We're Going to Do
 
-1. What is component-based front end development
-2. Sample pattern libraries
-3. Converting a design to its components
-4. Sample output style guides
+1. Review and discuss pattern libraries.
+2. Create a pattern library for a given design.
+3. Organize styles according to SMACSS conventions.
+4. Write pseudo-code for our styles.
+5. Review sample style guides.
 
 ---------------------------------------
 ## Slides, Resources, and more
 
 https://github.com/DrupalizeMe/drupal7-psdtotheme-series
+
+---------------------------------------
+## Grab the Files: http://lb.cm/free-psd
+
+<!-- .slide: data-background-image="assets/AnggaPutra_blog_psd.png" -->
+<!-- .slide: data-background-position="top left" -->
+<!-- .slide: data-state="bgimage" -->
+
+Note: Design is (c) CC BY-NC-ND, Angga Putra. Source: http://www.behance.net/gallery/Business-Stack-Free-Template-%28-PSD-file-included-%29/9254421 the PNGs and PSD files are also hidden in the repo.
 
 ---------------------------------------
 ## Pro Tip

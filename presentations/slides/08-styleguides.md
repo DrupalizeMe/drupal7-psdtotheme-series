@@ -14,6 +14,9 @@ A living style guide is ideal. It gives examples of what the rendered CSS should
 
 Article: http://24ways.org/2011/front-end-style-guides/
 
+----------------------------------------------------------------
+## Style Guide: Curated Style Pages
+
 Examples:
 
 - [Herokuapp](http://sfdc-styleguide.herokuapp.com/)
