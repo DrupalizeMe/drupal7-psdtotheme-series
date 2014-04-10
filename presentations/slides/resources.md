@@ -6,6 +6,7 @@
 The recognizable solutions which solve common design problems. This is a library which can be used in conjunction with any design. It is not the rendered styles for your particular site.
 
 - [pea.rs](http://pea.rs/)
+- [Refills](http://thoughtbot.github.io/refills/)
 - [patternlab](http://patternlab.io/)
 - [Yahoo Design Pattern Library](http://developer.yahoo.com/ypatterns/)
 - [UI Design Patterns](http://ui-patterns.com/)
