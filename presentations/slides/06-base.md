@@ -4,9 +4,9 @@ Styles which can be applied across multiple components, for example the color of
 
 
 ---------
-## Write Down Your Base Rules
+## Sample Description of Base Rules
 
-Design elements which are consistent from page-to-page.
+Describe elements which are consistent from page-to-page.
 
 ````
 Colors:

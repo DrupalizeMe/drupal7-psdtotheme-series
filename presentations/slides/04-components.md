@@ -12,7 +12,7 @@ Anything you can draw a box around is a component.
 <!-- .slide: data-state="bgimage" -->
 
 -----
-## Find the Smallest BLOG Repeatable Unit
+## Find the Smallest <br />Repeatable Unit for BLOG
 
 ![Spot the components](assets/AnggaPutra_blog_components_hide.png)
 
@@ -26,7 +26,7 @@ Note: This is THREE components; or perhaps TWO components and one BASE style.
 Note: The blog component has five sub-components or elements: title, date, summary text, number of comments, show whole post icon.
 
 -----
-## Write Down Your Components
+## Component Descriptions
 
 - Component Name
 - Width (including build/break point details if relevant)
@@ -35,7 +35,7 @@ Note: The blog component has five sub-components or elements: title, date, summa
 - Screen shot
 
 -----
-## Sample Component
+## Sample Component Description
 
 ````
 Blog summary (4 columns)
@@ -54,7 +54,7 @@ Sample design: component-blog-summary.png
 
 
 -----------
-## Component Rules
+## Sample Component Style
 
 File name: ``components/_blog.scss``
 

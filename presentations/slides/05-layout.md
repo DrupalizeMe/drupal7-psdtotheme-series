@@ -36,7 +36,7 @@ Note: color over your design to identify the regions
 Note: use whatever notes you need to make sense of the picture
 
 ---------
-## Write Down Your Layout Rules
+## Sample Layout Rule Description
 
 - Name
 - Terse description
@@ -49,7 +49,7 @@ Note: use whatever notes you need to make sense of the picture
 ````
 
 -------------
-## Layout Rules
+## Sample Sass for Layout Rules
 
 ``layout/_default.scss`` 
 
