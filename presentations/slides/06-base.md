@@ -35,3 +35,19 @@ h1, h2, h3 {
   margin-bottom: 0;
 }
 ````
+
+--------
+## Activity
+
+Write the base rules for your design. You may want to include:
+
+- colors
+- default fonts
+- heading sizes / global characteristics
+
+--------
+## Summary
+
+- Base styles provide the starting point for the rest of your theme.
+- Typically they include HTML-element overrides for headings, and variable definitions, such as colours.
+- Your base styles may also include external libraries, such as reset or normalize.

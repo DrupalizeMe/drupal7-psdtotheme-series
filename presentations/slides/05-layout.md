@@ -82,3 +82,10 @@ Note: Ideally the design will have used the templates for your CSS grid framewor
 Write down all of the layout rules for your design.
 
 These will be the containers you place your components into.
+
+--------
+## Summary
+
+- Before implementing anything, check with your design to see if they were building from a specific grid framework.
+- Choose a grid framework, such as Bootstrap, or 960gs. You *can* build your own, but not exactly novice-level work.
+- Often you can simplify your design, and line things up a little better, by examining all designs and looking for anomolies in your patterns.

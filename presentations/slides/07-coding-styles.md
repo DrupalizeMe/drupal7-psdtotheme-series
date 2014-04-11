@@ -26,6 +26,14 @@ scss/styles.scss (pulls in all partials)
 
 Tip: How does HTML "work" for your CMS of choice? How will you tie these styles to your CMS?
 
+----------
+## Sample Applications
+
+- [Applying SMACSS to Drupal](http://atendesigngroup.com/blog/applying-smacss-drupal)
+- [CSS Architecture for Drupal 8](https://drupal.org/node/1887918)
+- [WordPress and SMACSS](http://peterwilson.cc/specificity-smacss-and-wordpress/)
+- [Pure - a theme](http://purecss.io/)
+
 -----------
 ## More On Sass and Compass
 
