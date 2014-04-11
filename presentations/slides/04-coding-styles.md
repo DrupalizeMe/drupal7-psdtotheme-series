@@ -1,29 +1,4 @@
-## Coding Styles
-
----------------------------------------
-## Use Established Conventions
-
-Frameworks allow us to quickly apply conventions to a design.
-
-Note: Web development is like that time you realized you were a grown-up and you **could** eat cake every day for breakfast, but also understanding **why** you shouldn't.
-
----------------------------------------
-## File Organization and Class Naming Conventions
-
-- [OOCSS](http://github.com/stubbornella/oocss/wiki) - Object Oriented CSS - Nicole Sullivan
-- [SMACSS](http://smacss.com/)* - Scalable and Modular Architecture for CSS - Jonathan Snook
-- [BEM](http://bem.info/method/) - Block, Element, Modifier
-- [ACSS](http://bradfrostweb.com/blog/post/atomic-web-design/) - Atomic CSS - Brad Frost
-
-<p style="text-align: left; margin-top: 1em" class="fragment fade-in">my fave is *</p>
-
-------------
-## Workflow
-
-1. Use a pattern library to **identify design components**.
-2. **Define your styles in text** according to a convention.
-3. **Write HTML + Sass/CSS** to display your library of styles.
-4. **Refactor the component styles** until they match the design.
+## Building Your Theme
 
 ----------
 ## Sample File Naming Conventions
@@ -36,6 +11,29 @@ Note: Web development is like that time you realized you were a grown-up and you
   - Single file. Mostly holds variables.
 
 Note: Opt for many small files to avoid version control conflicts when refactoring.
+
+-----------
+## Activity: Building Your Theme
+
+Sort your styles according to a convention which is relevant to your CMS.
+
+````
+scss/components/X
+scss/layout/X
+scss/base.scss
+scss/styles.scss (pulls in all partials)
+````
+
+Tip: How does HTML "work" for your CMS of choice? How will you tie these styles to your CMS?
+
+-----------
+## More On Sass and Compass
+
+- http://drupalize.me/series/learning-sass-and-compass
+- http://drupalize.me/series/psd-drupal-theme
+
+
+Note: about working with Sass, Compass and what you need to install and run at the command line to get stuff working.
 
 -----------
 ## Summary

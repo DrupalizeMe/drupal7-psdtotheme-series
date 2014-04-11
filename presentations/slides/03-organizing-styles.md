@@ -2,7 +2,17 @@
 
 ![Image: Base, Layout, Components](assets/style-framework.png)
 
-Note: We'll focus on three of these: Base, Layout, and Component
+Note: Styles aren't perfectly organized. There's often overlap between different kinds of styles.
+
+---------------------------------------
+## Conventions for Organizing Styles
+
+- [OOCSS](http://github.com/stubbornella/oocss/wiki) - Object Oriented CSS - Nicole Sullivan
+- [SMACSS](http://smacss.com/)* - Scalable and Modular Architecture for CSS - Jonathan Snook
+- [BEM](http://bem.info/method/) - Block, Element, Modifier
+- [ACSS](http://bradfrostweb.com/blog/post/atomic-web-design/) - Atomic CSS - Brad Frost
+
+<p style="text-align: left; margin-top: 1em" class="fragment fade-in">my fave is *</p>
 
 ---------------------------------------
 ## Scalable and Modular Architecture for CSS

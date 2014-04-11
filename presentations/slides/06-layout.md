@@ -75,3 +75,10 @@ $ninesixty-columns: 12;
 }
 ````
 Note: Ideally the design will have used the templates for your CSS grid framework.
+
+----------------
+## Activity
+
+Write down all of the layout rules for your design.
+
+These will be the containers you place your components into.

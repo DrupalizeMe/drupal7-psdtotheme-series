@@ -61,6 +61,13 @@ Sample Sass content:
 
 Note: trying to follow BEM conventions for naming. http://bem.info/method/definitions/
 
+------------
+## Activity
+
+Write down the components for your designs.
+
+You may want to try writing some pseudo-Sass for each component broken into "block", "element", and "modifier".
+
 -----------
 ## Summary
 
