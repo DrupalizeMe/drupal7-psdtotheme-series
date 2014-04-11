@@ -44,6 +44,6 @@ http://smacss.com/
 ----------
 ## Summary
 
-- We use standard libraries and organizational framework to help make our styles predictable, and findable for our future selves.
+- We use standard libraries and organizational frameworks to help make our styles predictable, and findable for our future selves.
 - We know sometimes the rules in frameworks are too rigid, and we may choose to bend the rules sometimes.
 - We allow ourselves to pick and choose from frameworks where it suits our needs...and simplify them when necessary.
