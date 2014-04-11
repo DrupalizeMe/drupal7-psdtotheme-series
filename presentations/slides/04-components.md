@@ -2,6 +2,29 @@
 
 Anything you can draw a box around is a component.
 
+<div class="fragment">Sort of.</div>
+
+-----
+## Blog Example
+
+<!-- .slide: data-background-image="assets/AnggaPutra_blog_psd.png" -->
+<!-- .slide: data-background-position="top left" -->
+<!-- .slide: data-state="bgimage" -->
+
+-----
+## Find the Smallest BLOG Repeatable Unit
+
+![Spot the components](assets/AnggaPutra_blog_components_hide.png)
+
+Note: This is THREE components; or perhaps TWO components and one BASE style.
+
+-----
+## Only the Blog Summaries Repeat
+
+![One component built from five elements](assets/AnggaPutra_blog_components_show.png)
+
+Note: The blog component has five sub-components or elements: title, date, summary text, number of comments, show whole post icon.
+
 -----
 ## Write Down Your Components
 

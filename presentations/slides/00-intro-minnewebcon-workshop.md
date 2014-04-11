@@ -51,3 +51,53 @@ a series of patterns in mind when they convert a design into a working web site.
 <div class="fragment">This is how we do it.</div>
 <div class="fragment"> ... or rather:
 <br />This is how we'd do it today if we were starting over.</div>
+
+---------------------------------------
+## Quick Vocabulary Lesson
+
+- Page or Design or Mock
+- Layout Styles or Layout Rules
+- Component or Pattern
+- Base or Global (Rules and Styles)
+- Element
+- Modifier or State
+
+---------------------------------------
+## Page
+
+![One component built from five elements](assets/AnggaPutra_home_psd.png)
+
+Note: Corresponds to a URL; contents may vary depending on the viewport width. Is divided into sections by Layout Rules.
+
+---------------------------------------
+## Layout
+
+![One component built from five elements](assets/AnggaPutra_home_layout.png)
+
+Note: The layout divides a page into regions. The regions will hold our elements. Layouts are typically based on grid frameworks.
+
+---------------------------------------
+## Base
+
+![One component built from five elements](assets/AnggaPutra_home_base.png)
+
+Note: Things which remain consistent from page-to-page, and which are not components, are typically described by base styles.
+
+---------------------------------------
+## Component
+
+![One component built from five elements](assets/AnggaPutra_home_components.png)
+
+Note: Components may be build from smaller elements. If a component never changes state or has only one element, it may be defined in the base styles. Your choice.
+
+---------------------------------------
+## Elements and Modifiers / State
+
+![One component built from five elements](assets/AnggaPutra_home_BEM.png)
+
+Note: Components are built from elements. Elements may have different states. Components may also have different states e.g. responsive "narrow" vs "desktop" variants.
+
+---------------------------------------
+## Page > Layout Rules > Components > Elements
+
+![Pages contain layout rules, which contain components, which contain elements, which might be in one or more states](assets/vocabulary.png)
