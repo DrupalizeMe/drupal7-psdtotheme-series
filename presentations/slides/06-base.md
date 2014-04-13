@@ -43,7 +43,7 @@ Write the base rules for your design. You may want to include:
 
 - colors
 - default fonts
-- heading sizes / global characteristics
+- mixins for characteristics which are shared by multiple components
 
 --------
 ## Summary
