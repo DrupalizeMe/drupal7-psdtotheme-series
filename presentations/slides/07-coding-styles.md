@@ -3,12 +3,12 @@
 ----------
 ## Sample File Naming Conventions
 
-- ``components/style-name.scss``
+- ``components/_style-name.scss``
   - Individual files. Match the file name to your class name.
 - ``layout/X``
   - Use a directory. File names depend on your grid framework.
-- ``base.scss``
-  - Single file. Mostly holds variables.
+- ``base.scss`` or ``base/X``
+  - Single file. Mostly holds variables. *OR* a directory.
 
 Note: Opt for many small files to avoid version control conflicts when refactoring.
 
