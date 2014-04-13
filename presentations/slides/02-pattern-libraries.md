@@ -92,7 +92,7 @@ Note: the big green thing with the rounded bottom is a component. The background
 
 <img src="assets/AnggaPutra_blog_psd.png" class="noshow" />
 
-Note: Two components: the blog (variant/modifier: summary) AND sidebar navigation (which might be a variant including characteristics which are specific to the blog, but NAVIGATION is the resuable component, this is not a sub-component of blog, because then if there's another page with sidebar nav, we can't "riff on this idea" (or create variants / modifiers for it).)
+Note: Two components: the blog (variant/modifier: summary) AND sidebar navigation (which might be a variant including characteristics which are specific to the blog, but NAVIGATION is the resuable component, this is not a sub-component of blog, because then if there's another page with sidebar nav, we can't "riff on this idea" (or create variants / modifiers for it).) The gray shadow at the top right corner of the "content area" would be a layout style. It's not a component style. You might also want to have it as a Sass mixin which could be *applied* to a component. (Sometimes you don't really know. Just throw it in somewhere for now, you can always refactor later if you were wrong.)
 
 ------
 ## Home Page
@@ -126,5 +126,5 @@ Note: Point out the sidebar nav has reappeared as a component which might appear
 
 - Pattern, or Component, Libraries range from the very simple, to the very "enterprise".
 - Using written words to describe designs is the first step in converting a design to code.
-- Components are things we can draw a box around. Not all styles are components.
+- Components are things we lift out of our web site (as opposed to layouts which are empty, invisible containers, we can fill. Not all styles are components.
 - By recognizing components in your web site, you will be able to apply HTML+CSS patterns faster in your front end work.
