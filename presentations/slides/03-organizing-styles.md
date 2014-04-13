@@ -45,7 +45,7 @@ Note: Snook uses "Modules" but because of Drupal, I will use "component" consist
 Note: Differently flexible than SMACSS. These can be combined in any way. e.g. .person--female__hand vs. .person__hand--left. More reading at: http://csswizardry.com/2013/01/mindbemding-getting-your-head-round-bem-syntax/
 
 ----------
-## Hybrid: SMACSSy-BEM-ish
+## Hybrid: SMACSSy-BEMz-ish
 
 - **components**
   - made up of smaller elements; can be in different states
