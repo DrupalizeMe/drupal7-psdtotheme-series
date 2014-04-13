@@ -50,4 +50,4 @@ Write the base rules for your design. You may want to include:
 
 - Base styles provide the starting point for the rest of your theme.
 - Typically they include HTML-element overrides for headings, and variable definitions, such as colours.
-- Your base styles may also include external libraries, such as reset or normalize.
+- Your base styles may also include external libraries, such as [Reset CSS](http://meyerweb.com/eric/tools/css/reset/index.html) or [normalize.css](http://necolas.github.io/normalize.css/).
