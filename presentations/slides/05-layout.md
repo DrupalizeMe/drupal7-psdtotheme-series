@@ -1,6 +1,6 @@
 ## Rules for Layout
 
-The shapes which your components fit into.
+The containers which your components fit into.
 
 -------------
 ## Home Page
