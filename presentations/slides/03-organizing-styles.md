@@ -48,16 +48,16 @@ Note: Differently flexible than SMACSS. These can be combined in any way. e.g. .
 ## Hybrid: SMACSSy-BEMz-ish
 
 - **components**
-  - made up of smaller elements; can be in different states
-  - e.g. `.blog`, `.blog__title`, `.blog--summary`
+  - made up of smaller elements; can be in different states..which also have elements
+  - e.g. `.blog`, `.blog--summary`, `.blog--summary__title`
 - **base**
-  - single element selectors OR global helpers
-  - e.g. `h2`, `h3`, `a`, `li` OR a mixin to define rounded corners
+  - single element selectors AND global design characteristics
+  - e.g. `h2`, `h3`, `a`, `li` vs. `@rounded`
 - **layout**
   - grid framework and layout definitions
   - e.g. `#sidebar`, `.l-flipped #sidebar`
 
-Note: use what works for you. It is less important to follow the standard convention for any of these systems, and more important to write down what convention you are using for your team.
+Note: use what works for you. It is less important to follow the standard convention for any of these systems, and more important to write down what convention you are using for your team. In my world: the terms "state" and "modifier" get applied to "variants".
 
 ----------
 ## Summary
