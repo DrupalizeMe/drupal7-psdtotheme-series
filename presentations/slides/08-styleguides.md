@@ -1,3 +1,10 @@
+## Where Next?
+
+After you've finished building your theme, you should create a human-readable summary of your styles.
+
+We'll refer to this summary Style Guide.
+
+----------------------------------------------------------------
 ## Style Guides
 
 There are essentially three types of style guides:
@@ -5,7 +12,6 @@ There are essentially three types of style guides:
 - Plain text, with screen shot / picture references
 - Curated style pages
 - Automated style guides
-
 
 ----------------------------------------------------------------
 ## Style Guide: Curated Style Pages

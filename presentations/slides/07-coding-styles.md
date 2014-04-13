@@ -32,7 +32,7 @@ scss/styles.scss (pulls in all partials)
 Tip: How does HTML "work" for your CMS of choice? How will you tie these styles to your CMS?
 
 ----------
-## Sample Applications
+## Examples of Conventions<br />Applied to Real Projects
 
 - [Applying SMACSS to Drupal](http://atendesigngroup.com/blog/applying-smacss-drupal)
 - [CSS Architecture for Drupal 8](https://drupal.org/node/1887918)
