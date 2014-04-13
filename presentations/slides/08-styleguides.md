@@ -16,12 +16,16 @@ There are essentially three types of style guides:
 ----------------------------------------------------------------
 ## Style Guide: Curated Style Pages
 
-A living style guide is ideal. It gives examples of what the rendered CSS should look like in a browser. These are generally compiled at the end of the design phase; however, front end developers should consider having an in-code style guide as well (or instead of) this type of style guide.
+A living style guide is ideal. 
+
+It gives examples of what the rendered CSS should look like in a browser. 
+
+These are generally compiled at the end of the design phase; however, front end developers should consider having an in-code style guide as well (or instead of) this type of style guide.
 
 Article: http://24ways.org/2011/front-end-style-guides/
 
 ----------------------------------------------------------------
-## Style Guide: Curated Style Pages
+## Examples of Curated Style Pages
 
 Examples:
 
