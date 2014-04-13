@@ -23,11 +23,13 @@ http://smacss.com/
 ----------
 ## All SMACSS Rules
 
-- Base rules (HTML element overrides)
-- Layout rules (wire frames)
-- Component rules (anything that can be placed, or reused on your site)
-- State rules (augments and overrides)
-- Theme rules (variations)
+- **Base rules**: HTML element overrides; and default variables
+- **Layout rules**: empty containers; are filled with components
+- <strike>Module</strike> **Component rules**: re-usable collections of elements
+- **State rules**: alternate, augment, or override
+- **Theme rules**: variations for different apps
+
+Note: Snook uses "Modules" but because of Drupal, I will use "component" consistently instead of his term.
 
 ----------
 ## Simplified SMACSS
