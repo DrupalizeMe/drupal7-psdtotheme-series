@@ -5,7 +5,6 @@
 - Write the pseudo-code for your styles.
 - Convert the pseduo-code to a prototype, using a CSS (grid) framework.
 - Opt for many small files to avoid version control conflicts when refactoring.
-- Iterate and improve in the browser.
 
 ---------------------------------------
 ## Examples We Reviewed / Discussed
