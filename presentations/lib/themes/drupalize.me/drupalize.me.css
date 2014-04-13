@@ -67,9 +67,20 @@ body {
   width: 200%;
 }
 
-.bgimage .reveal h2, .bgimage .reveal h2 a {
-  color: whitesmoke;
+.bgimage--reveal-activity .reveal h2 {
+  background-color: black;
+  bottom: 0;
+  opacity: 0.6;
+  padding: .5em;
+  position: absolute;
+  right: 0;
 }
+
+.bgimage--reveal-activity .reveal h2,
+.bgimage .reveal h2, .bgimage .reveal h2 a {
+  color: white;
+}
+
 
 /*********************************************
  * TEXT STYLES

@@ -45,7 +45,7 @@ Note: You can't theme something you cannot describe with words. Being able to de
 
 <!-- .slide: data-background-image="assets/AnggaPutra_team_psd.png" -->
 <!-- .slide: data-background-position="top left" -->
-<!-- .slide: data-state="bgimage" -->
+<!-- .slide: data-state="bgimage--reveal-activity" -->
 
 Note: the main component is in the middle of the page. They may also identify "edge" components such as the header or footer nav items.
 
@@ -54,7 +54,7 @@ Note: the main component is in the middle of the page. They may also identify "e
 
 <!-- .slide: data-background-image="assets/AnggaPutra_portfolio_psd.png" -->
 <!-- .slide: data-background-position="top left" -->
-<!-- .slide: data-state="bgimage" -->
+<!-- .slide: data-state="bgimage--reveal-activity" -->
 
 Note: another simple one. identify the portfolio squares in the middle of the page. There is also navigation tabs at the top.
 
@@ -63,28 +63,28 @@ Note: another simple one. identify the portfolio squares in the middle of the pa
 
 <!-- .slide: data-background-image="assets/AnggaPutra_contact_psd.png" -->
 <!-- .slide: data-background-position="top left" -->
-<!-- .slide: data-state="bgimage" -->
+<!-- .slide: data-state="bgimage--reveal-activity" -->
 
 ------
 ## Blog
 
 <!-- .slide: data-background-image="assets/AnggaPutra_blog_psd.png" -->
 <!-- .slide: data-background-position="top left" -->
-<!-- .slide: data-state="bgimage" -->
+<!-- .slide: data-state="bgimage--reveal-activity" -->
 
 ------
 ## Home Page
 
 <!-- .slide: data-background-image="assets/AnggaPutra_home_psd.png" -->
 <!-- .slide: data-background-position="top left" -->
-<!-- .slide: data-state="bgimage" -->
+<!-- .slide: data-state="bgimage--reveal-activity" -->
 
 ------
 ## Content Page
 
 <!-- .slide: data-background-image="assets/AnggaPutra_page-2col_psd.png" -->
 <!-- .slide: data-background-position="top left" -->
-<!-- .slide: data-state="bgimage" -->
+<!-- .slide: data-state="bgimage--reveal-activity" -->
 
 
 ------
