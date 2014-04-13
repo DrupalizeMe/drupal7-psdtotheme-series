@@ -49,5 +49,5 @@ Write the base rules for your design. You may want to include:
 ## Summary
 
 - Base styles provide the starting point for the rest of your theme.
-- Typically they include HTML-element overrides for headings, and variable definitions, such as colours.
+- Typically they include HTML-element overrides for headings, and variable definitions, such as colors.
 - Your base styles may also include external libraries, such as reset or normalize.
