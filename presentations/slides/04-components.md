@@ -30,27 +30,35 @@ Note: The blog component has five sub-components or elements: title, date, summa
 
 - Component Name
 - Width (including build/break point details if relevant)
+- Known variations of the design
 - Terse description
-- Characteristics
+- Characteristics (the "elements" which make up the component)
 - Screen shot
 
 -----
 ## Sample Component Description
 
 ````
-Blog summary (4 columns)
+Component: Blog
+Description: News stories from recent events.
+Default width: 4 grid columns
 
+Variations:
+- Full length
+- Summary. Screenshot: component-blog-summary.png
+
+Elements:
 - Blog title
 - Date
-- Number of comments
+- Comments
+- Full text
 - Text summary
-- "Expand" icon
-
-Sample design: component-blog-summary.png
-
+- "Expand" link
 ````
 
 ![blog component](assets/AnggaPutra_blog_psd_component.png)
+
+Note: you may want to write these descriptions in a single file, or grouped in smaller files (which you can later transform into SCSS files)
 
 
 -----------
@@ -58,7 +66,7 @@ Sample design: component-blog-summary.png
 
 File name: ``components/_blog.scss``
 
-Sample Sass content:
+Sample Sass content for the Summary variant:
 
 ````
 .blog--summary {
@@ -69,7 +77,7 @@ Sample Sass content:
     @extend .subtitle;
   }
   __description {
-    // defaults are fine
+    // default for paragraph text is fine
   }
   __comments {
     background-image: url('balloon.png');
@@ -82,7 +90,7 @@ Sample Sass content:
 }
 ````
 
-Note: trying to follow BEM conventions for naming. http://bem.info/method/definitions/
+Note: trying to follow BEM conventions for naming. Elements ('parts') are prefaced by double underscores. Variations ('modifiers') are prefaced by double dashes. You can mix and match. http://bem.info/method/definitions/
 
 ------------
 ## Activity
