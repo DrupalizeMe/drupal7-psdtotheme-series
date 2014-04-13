@@ -61,14 +61,14 @@ File name: ``components/_blog.scss``
 Sample Sass content:
 
 ````
-.blog {
+.blog--summary {
   __title {
     // defaults are fine
   }
   __date {
     @extend .subtitle;
   }
-  __summary {
+  __description {
     // defaults are fine
   }
   __comments {
