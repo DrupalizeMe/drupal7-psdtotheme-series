@@ -18,8 +18,13 @@ Note: Opt for many small files to avoid version control conflicts when refactori
 Sort your styles according to a convention which is relevant to your CMS.
 
 ````
-scss/components/X
-scss/layout/X
+scss/components/
+  _blog.scss
+  _gallery-item.scss
+  _portfolio-item.scss
+scss/layout/
+  _default.scss
+  _single-column.scss
 scss/base.scss
 scss/styles.scss (pulls in all partials)
 ````
