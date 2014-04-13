@@ -48,11 +48,11 @@ Note: Differently flexible than SMACSS. These can be combined in any way. e.g. .
 ## Hybrid: SMACSSy-BEMz-ish
 
 - **components**
-  - made up of smaller elements; can be in different states..which also have elements
-  - e.g. `.blog`, `.blog--summary`, `.blog--summary__title`
+  - made up of elements; can be in different states..which also have elements
+  - e.g. `.blog__date`, `.blog--summary__title`
 - **base**
   - single element selectors AND global design characteristics
-  - e.g. `h2`, `h3`, `a`, `li` vs. `@rounded`
+  - e.g. `h2`, `h3`, `a`, `li`, `@rounded`
 - **layout**
   - grid framework and layout definitions
   - e.g. `#sidebar`, `.l-flipped #sidebar`
