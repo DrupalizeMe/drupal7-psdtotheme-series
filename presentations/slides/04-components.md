@@ -95,5 +95,5 @@ You may want to try writing some pseudo-Sass for each component broken into "blo
 ## Summary
 
 - Most of your style rules will be components (component-based web design!)
-- Match the file name to the class name so that it is easy to find later.
+- Use the component name for both the class name and the file name so that it is easy to find later.
 - Where possible: abstract related styles and put them into variables and mixins for easier re-use.
