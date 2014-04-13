@@ -98,6 +98,6 @@ Note: Components may be build from smaller elements. If a component never change
 Note: Components are built from elements. Elements may have different states. Components may also have different states e.g. responsive "narrow" vs "desktop" variants.
 
 ---------------------------------------
-## Page > Layout Rules > Components > Elements
+## Containers: Page > Layout Rules <br />Objects: Components > Elements
 
 ![Pages contain layout rules, which contain components, which contain elements, which might be in one or more states](assets/vocabulary.png)
