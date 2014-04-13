@@ -27,6 +27,4 @@ https://github.com/DrupalizeMe/drupal7-psdtotheme-series
 
 ---------------------------------------
 ## Parting Words
-“Are you new to front-end web development? Here's a secret: no one else really knows what they're doing either.” 
-
-Nicolas Gallagher
+Efficient front end developers have a series of patterns in mind when they convert a design into a working web site.
