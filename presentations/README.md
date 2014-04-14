@@ -2,6 +2,10 @@
 
 This directory contains the presentations used to teach the PSD to Theme workshop.
 
+## Past Presentations
+
+- MinneWebCon - [slide deck](http://drupalizeme.github.io/drupal7-psdtotheme-series/presentations/slides/session-minnewebcon.html)
+
 ## Give a Presentation
 
 Clone this repository, and launch a presentation in your browser. For full effect make sure that you're viewing it via a webserver and not just file:///.
