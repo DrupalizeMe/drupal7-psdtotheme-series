@@ -1,0 +1,53 @@
+<mockup version="1.0" skin="sketch" fontFace="Balsamiq Sans" measuredW="719" measuredH="542" mockupW="687" mockupH="476">
+  <controls>
+    <control controlID="11" controlTypeID="com.balsamiq.mockups::VRule" x="207" y="66" w="-1" h="476" measuredW="10" measuredH="100" zOrder="2" locked="false" isInGroup="-1"/>
+    <control controlID="12" controlTypeID="__group__" x="32" y="66" w="130" h="199" measuredW="130" measuredH="199" zOrder="1" locked="false" isInGroup="-1">
+      <groupChildrenDescriptors>
+        <control controlID="0" controlTypeID="com.balsamiq.mockups::List" x="15" y="73" w="-1" h="-1" measuredW="100" measuredH="126" zOrder="0" locked="false" isInGroup="12">
+          <controlProperties>
+            <selectedIndex>3</selectedIndex>
+            <text>List%20Heading%0A%20%0A-%20Item%20One%0A-%20Item%20Two%0A-%20Item%20Three</text>
+          </controlProperties>
+        </control>
+        <control controlID="1" controlTypeID="com.balsamiq.mockups::Title" x="0" y="0" w="-1" h="-1" measuredW="130" measuredH="43" zOrder="1" locked="false" isInGroup="12">
+          <controlProperties>
+            <text>Pattern</text>
+          </controlProperties>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="13" controlTypeID="__group__" x="258" y="66" w="461" h="402" measuredW="461" measuredH="402" zOrder="0" locked="false" isInGroup="-1">
+      <groupChildrenDescriptors>
+        <control controlID="0" controlTypeID="com.balsamiq.mockups::Image" x="0" y="43" w="446" h="75" measuredW="446" measuredH="75" zOrder="0" locked="false" isInGroup="13">
+          <controlProperties>
+            <crop>0%2C0%2C395%2C81</crop>
+            <src>./assets/journalcrunch.png</src>
+          </controlProperties>
+        </control>
+        <control controlID="1" controlTypeID="com.balsamiq.mockups::Image" x="31" y="109" w="159" h="137" measuredW="159" measuredH="137" zOrder="1" locked="false" isInGroup="13">
+          <controlProperties>
+            <crop>710%2C157%2C204%2C138</crop>
+            <src>./assets/AnggaPutra_blog_psd.png</src>
+          </controlProperties>
+        </control>
+        <control controlID="2" controlTypeID="com.balsamiq.mockups::Image" x="0" y="214" w="323" h="179" measuredW="323" measuredH="179" zOrder="2" locked="false" isInGroup="13">
+          <controlProperties>
+            <crop>654%2C472%2C315%2C223</crop>
+            <src>./assets/uipatterns.png</src>
+          </controlProperties>
+        </control>
+        <control controlID="3" controlTypeID="com.balsamiq.mockups::Image" x="273" y="118" w="188" h="284" measuredW="188" measuredH="284" zOrder="3" locked="false" isInGroup="13">
+          <controlProperties>
+            <crop>18%2C204%2C184%2C329</crop>
+            <src>./assets/domicile.png</src>
+          </controlProperties>
+        </control>
+        <control controlID="4" controlTypeID="com.balsamiq.mockups::Title" x="31" y="0" w="-1" h="-1" measuredW="230" measuredH="43" zOrder="4" locked="false" isInGroup="13">
+          <controlProperties>
+            <text>Components</text>
+          </controlProperties>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+  </controls>
+</mockup>

@@ -1,9 +1,12 @@
 # Component-Based Web Design
 
 Emma Jane Westby 
-<br/>[@emmajanehw](http://twitter.com/emmajanehw) // [emma.westby@drupalize.me](mailto:emma.westby@drupalize.me)
 
----------------------------------------
+Twitter: [emmajanehw](http://twitter.com/emmajanehw)
+
+[emma.westby@drupalize.me](mailto:emma.westby@drupalize.me)
+
+-----
 ## Hello! My Name is Emma
 
 <!-- .slide: data-background-image="assets/beesuit.jpg" -->
