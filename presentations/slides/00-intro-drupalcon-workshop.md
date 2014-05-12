@@ -1,8 +1,5 @@
 # Component-Based Web Design
 
-Emma Jane Westby 
-<br/>[@emmajanehw](http://twitter.com/emmajanehw) // [emma.westby@drupalize.me](mailto:emma.westby@drupalize.me)
-
 Joe Shindelar
 <br/>[@eojthebrave](http://twitter.com/eojthebrave) // [joe.shindelar@drupalize.me](mailto:joe.shindelar@drupalize.me)
 
@@ -11,7 +8,7 @@ Joe Shindelar
 
 <a href="http://drupalize.me"><img class="fragment" style="background-color: white; padding: .5em; border: none" src="../lib/themes/drupalize.me/images/drupalizeme-logo.png" class="no-border" width="35%" class="left" style="padding-top: 10px;" alt="Drupalize.Me logo"/></a>
 
-Note: Emma has been doing Drupal 10+ years, started from scratch all the way to core contributor, passionate about version control and developer workflow, former front end dev.
+Note: 
 
 ---------------------------------------
 ## What We're Going to Do
@@ -20,7 +17,8 @@ Note: Emma has been doing Drupal 10+ years, started from scratch all the way to 
 2. Create a pattern library for a given design.
 3. Organize styles according to SMACSS conventions.
 4. Write pseudo-code for our styles.
-5. Review sample style guides.
+5. Learn how to apply compontent based development to Drupal.
+6. Review sample style guides.
 
 ---------------------------------------
 ## Slides, Resources, and more
