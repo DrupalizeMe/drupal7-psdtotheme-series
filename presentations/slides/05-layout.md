@@ -48,6 +48,8 @@ Note: use whatever notes you need to make sense of the picture
 - Main area -- left column - 9 grid columns
 ````
 
+<div class="fragment">**Pro-tip:** These often corrsepond to regions in a Drupal theme.</div>
+
 -------------
 ## Sample Sass for Layout Rules
 
@@ -82,6 +84,20 @@ Note: Ideally the design will have used the templates for your CSS grid framewor
 Write down all of the layout rules for your design.
 
 These will be the containers you place your components into.
+
+----------------
+## Activity Report
+
+*Assumes we're using a 12 column grid layout*
+
+````
+Header - logo & navigation - 12 columns
+Hero - optional hero image or carousel - 12 columns
+Primary Content - main content of each page - 8 columns
+Sidebar - secondary page content / navigation - 4 columns
+Social Content - links to social media and contact info - 12 columns
+Footer - bottom of page - 12 columns
+````
 
 --------
 ## Summary

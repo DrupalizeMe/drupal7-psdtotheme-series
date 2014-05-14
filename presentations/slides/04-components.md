@@ -4,6 +4,8 @@ Anything you can draw a box around is a component.
 
 <div class="fragment">Sort of.</div>
 
+Note: You can draw a box around a link, but a link is probably to granular for a component.
+
 -----
 ## Blog Example
 
@@ -98,6 +100,69 @@ Note: trying to follow BEM conventions for naming. Elements ('parts') are prefac
 Write down the components for your designs.
 
 You may want to try writing some pseudo-Sass for each component broken into "block", "element", and "modifier".
+
+------------
+## Activity Report - Pager
+
+````
+Component: Pager
+Description: Pager used to navigate multiple pages of content.
+
+Variations:
+- none
+
+Elements:
+- link
+- active link
+````
+
+````
+.pager {
+  border: 1px solid green;
+
+  __link {
+    // styles here ...
+  }
+  __active_link {
+    // styles here ...
+  }
+}
+````
+
+------------
+## Activity Report - Navigation
+
+````
+Component: Secondary Navigation
+Description: Block for navigating sub content of a top level section.
+
+Variations:
+- none
+
+Elements:
+- title
+- link
+- active link
+- counter
+````
+
+````
+.secondary-navigation {
+
+  __title {
+    // styles here ...
+  }
+  __link {
+    // styles here ...
+  }
+  __active_link {
+    // styles here ...
+  }
+  __counter {
+    // styles here ...
+  }
+}
+````
 
 -----------
 ## Summary

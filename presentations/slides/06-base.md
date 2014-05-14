@@ -46,6 +46,24 @@ Write the base rules for your design. You may want to include:
 - mixins for characteristics which are shared by multiple components
 
 --------
+## Activity Report
+
+````
+Colors:
+- $green: #219b7d;
+- $grey: #2a535e;
+- $light-grey: #e5e5e5;
+- $white: #fff;
+
+Fonts:
+- Sans-serif: Lato Regular
+
+Mixins / Comment Elements:
+- Inner shadown on form elements.
+- Circle with pointer (comment bubble).
+````
+
+--------
 ## Summary
 
 - Base styles provide the starting point for the rest of your theme.
