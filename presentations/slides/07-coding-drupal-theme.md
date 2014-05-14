@@ -89,6 +89,22 @@ function THEMENAME_menu_tree($vars) {
 - Clear cache and see what's (now) broken.
 - Repeat.
 
+---------------------------------------
+## Common Drupal Layout Tools
+
+Many of the common Drupal layout tools allow you to customize the names of classes used to wrap content.
+
+- Views
+- Panels
+- Display Suite
+
+Note: Talk about how you can use these moduels to configure the classes used to wrap the content output, it can get a little tedious though esepcially if you need to make changes to class names later.
+
+----------
+## Example From Views
+
+![views style settings](assets/views-style-settings.jpg)
+
 ----------
 ## Examples of Conventions<br />Applied to Real Projects
 
@@ -114,4 +130,4 @@ Note: about working with Sass, Compass and what you need to install and run at t
 - We follow a process which allows us to refactor our work as needed.
 - We aim to sort our styles in a way which allows us to refactor easily.
 
-Note: dealing with git conflicts
+Note: makes dealing with git conflicts easier
