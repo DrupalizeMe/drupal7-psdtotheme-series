@@ -2,7 +2,7 @@
 
 ![Image: Base, Layout, Components](assets/style-framework.png)
 
-Note: Styles aren't perfectly organized. There's often overlap between different kinds of styles.
+Note: How do we translate our nice organized/reusable design patterns into CSS that is also organized/reusable? Styles aren't perfectly organized. There's often overlap between different kinds of styles.
 
 ---------------------------------------
 ## Conventions for Organizing Styles

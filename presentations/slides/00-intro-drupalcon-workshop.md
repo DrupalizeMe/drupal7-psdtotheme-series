@@ -1,7 +1,10 @@
 # Component-Based Web Design
 
-Joe Shindelar
-<br/>[@eojthebrave](http://twitter.com/eojthebrave) // [joe.shindelar@drupalize.me](mailto:joe.shindelar@drupalize.me)
+Joe Shindelar // [@eojthebrave](http://twitter.com/eojthebrave) // [joe.shindelar@drupalize.me](mailto:joe.shindelar@drupalize.me)
+
+Amber Matz // [@amberhimes](http://twitter.com/amberhimes) // [amber.matz@drupalize.me](mailto:amber.matz@drupalize.me)
+
+Kyle Hofmeyer // [@khofmeyer](https://twitter.com/khofmeyer) // [kyle.hofmeyer@drupalize.me](mailto:kyle.hofmeyer@drupalize.me)
 
 ---------------------------------------
 ## Hi!
@@ -20,6 +23,8 @@ Note:
 5. Learn how to apply compontent based development to Drupal.
 6. Review sample style guides.
 
+Note: Summary, this workshop is all about recognizing patterns and organizing things
+
 ---------------------------------------
 ## Slides, Resources, and more
 
@@ -32,13 +37,15 @@ https://github.com/DrupalizeMe/drupal7-psdtotheme-series
 <!-- .slide: data-background-position="top left" -->
 <!-- .slide: data-state="bgimage" -->
 
-Note: Design is (c) CC BY-NC-ND, Angga Putra. Source: http://www.behance.net/gallery/Business-Stack-Free-Template-%28-PSD-file-included-%29/9254421 the PNGs and PSD files are also hidden in the repo.
+Note: Link points to download for green theme PSD -- Design is (c) CC BY-NC-ND, Angga Putra. Source: http://www.behance.net/gallery/Business-Stack-Free-Template-%28-PSD-file-included-%29/9254421 the PNGs and PSD files are also hidden in the repo.
 
 ---------------------------------------
 ## Pro Tip
 “Are you new to front-end web development? Here's a secret: no one else really knows what they're doing either.” 
 
 Nicolas Gallagher
+
+Note: One of the things that makes this topic particularly difficult is that the field is changing so rapidly.
 
 ---------------------------------------
 ## ... but

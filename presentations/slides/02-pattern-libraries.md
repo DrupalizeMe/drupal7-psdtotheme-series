@@ -1,6 +1,6 @@
 ## Component / Pattern Libraries
 
-Your web site is a collection of rendered component patterns.
+Your web site is a collection of repeated components / patterns.
 
 Note: although the RENDERED COMPONENT which appear on your site may LOOK unique, their underlying PURPOSE is probably described by a PATTERN which is used on other sites as well. For example: a list of things with pictures. That will show up all over the place. But how we format / decorate / display the list will change a little bit between different web sites.
 
@@ -48,7 +48,7 @@ Component Libraries are a way to catalog things which will appear on a particula
 Using pea.rs as a reference, let's name the components on the following design files.
 
 
-Note: You can't code something without being able to describe it with words. Being able to describe a problem with words is the gateway to coding a solution. Ignore layout and base rules. Have students write them down to the side for now. We need to know this information, but we're not going to use it yet.
+Note: We'll do this as a group. You can't code something without being able to describe it with words. Being able to describe a problem with words is the gateway to coding a solution. Ignore layout and base rules. Have students write them down to the side for now. We need to know this information, but we're not going to use it yet.
 
 ------
 ## Team Page
@@ -59,7 +59,7 @@ Note: You can't code something without being able to describe it with words. Bei
 
 <img src="assets/AnggaPutra_team_psd.png" class="noshow" />
 
-Note: the main component is in the middle of the page. They may also identify "edge" components such as the header navigation. Discuss whether or not they think the navigation tabs above the circles are components of their own (there is not a right answer because we don't know enough about the rest of the site). Discuss the 
+Note: the main component is in the middle of the page. They may also identify "edge" components such as the header navigation. Discuss whether or not they think the navigation tabs above the circles are components of their own (there is not a right answer because we don't know enough about the rest of the site).
 
 ------
 ## Portfolio Page
@@ -70,7 +70,7 @@ Note: the main component is in the middle of the page. They may also identify "e
 
 <img src="assets/AnggaPutra_portfolio_psd.png" class="noshow" />
 
-Note: Identify the portfolio squares in the middle of the page. There is also navigation tabs at the top. Seeing as the navigation tabs now appear in TWO places, we can are ready to define these tabs as their own component (we want to standardize and simplify our designs). There is another pattern / component introduced on the right-hand side (list or gallery style for the portfolio items).
+Note: Identify the portfolio squares in the middle of the page. There is also navigation tabs at the top. Seeing as the navigation tabs now appear in TWO places, we are ready to define these tabs as their own component (we want to standardize and simplify our designs). There is another pattern / component introduced on the right-hand side (list or gallery style for the portfolio items).
 
 ------
 ## Contact Page
