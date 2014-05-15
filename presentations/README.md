@@ -2,8 +2,9 @@
 
 This directory contains the presentations used to teach the PSD to Theme workshop.
 
-## Past Presentations
+## Presentations
 
+- DrupalCon Austin 2014 - [slide deck](http://drupalizeme.github.io/drupal7-psdtotheme-series/presentations/slides/workshop-drupalcon-austin.html)
 - MinneWebCon - [slide deck](http://drupalizeme.github.io/drupal7-psdtotheme-series/presentations/slides/session-minnewebcon.html)
 
 ## Give a Presentation
