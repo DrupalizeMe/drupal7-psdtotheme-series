@@ -48,7 +48,10 @@ body {
   margin: 0 0 20px 0;
   color: #207CC3;
   font-family: "Proxima Nova", "League Gothic", Impact, sans-serif;
-  text-shadow: none; }
+  text-shadow: none;
+  -moz-hyphens: none;
+  word-wrap: normal;
+}
 
 .reveal h1 {
   text-shadow: 0px 0px 6px rgba(0, 0, 0, 0.2); }
