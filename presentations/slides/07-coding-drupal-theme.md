@@ -21,7 +21,7 @@ Note: Opt for many small files to avoid version control conflicts when refactori
 ---------------------------------------
 ## Establish Your Theme 
 
-![the domicile theme folder](assets/domicile-theme-folders.png)
+![the domicile theme folder](assets/domicile-d8-theme-folder.jpg)
 
 ---------------------------------------
 ## Pro Tip
@@ -53,6 +53,36 @@ mytheme/scss/styles.scss (pulls in all partials)
 Tip: How does HTML "work" for your CMS of choice? How will you tie these styles to your CMS?
 
 ---------------------------------------
+## Example - Drupalize.Me
+
+![List of SCSS files for drupalize.me](assets/scss-file-list-dme.jpg)
+
+---------------------------------------
+## Example - Large Media Site
+
+![List of SCSS files for a large site](assets/scss-file-list-media.png)
+
+---------------------------------------
+## Tell Drupal About Your CSS
+
+If you're using a preprocessor just add the ouput file. Otherwise include each CSS file individually.
+
+**themes/domicile/domicile.info.yml**
+
+````yaml
+name: Domicile
+type: theme
+description: 'A three-column design by Design House.'
+core: 8.x
+
+stylesheets:
+  all:
+    - css/styles.css
+````
+
+Note: You could also include .css files directly if you're not using a prepprocessor it'll just be more verbose.
+
+---------------------------------------
 ## Adjust ``page.tpl.php``
 
 - Apply the layout classes from your style guide.
@@ -69,7 +99,8 @@ Tip: How does HTML "work" for your CMS of choice? How will you tie these styles 
 ## Apply Remaining Styles
 
 Easy road: Alter your SCSS with ``@extend``.
-````
+
+````css
 .drupal-weird-class {
   @extend .my-awesome-class;
 }
