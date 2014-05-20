@@ -11,7 +11,7 @@ Note: although the RENDERED COMPONENT which appear on your site may LOOK unique,
 <!-- .slide: data-background-position="top left" -->
 <!-- .slide: data-state="bgimage" -->
 
-Note: a theme for WordPress which you can redecorate. Gives you all of the patterns / components broken down so that it's easier to find the HTML / CSS that you need to style. Intended for working quickly with WordPress.
+Note: A theme for WordPress that provides HTML and CSS fields and leverages the Categories and Body fields in Posts to enable you to create your own pattern library. The theme will render the HTML you provide with the CSS snippet you provide. A great way to keep track of your own favorite patterns.
 
 ---------------------------------------
 ## [patternlab](http://patternlab.io/)
