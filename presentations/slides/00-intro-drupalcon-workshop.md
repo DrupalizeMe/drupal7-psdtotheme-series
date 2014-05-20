@@ -23,7 +23,17 @@ Note:
 5. Learn how to apply compontent based development to Drupal.
 6. Review sample style guides.
 
-Note: Summary, this workshop is all about recognizing patterns and organizing things
+Note: Summary, this workshop is all about recognizing patterns, naming, and organizing things
+
+---------------------------------------
+## Who is this for?
+
+---------------------------------------
+## Team Members Who Want To:
+
+- Use a common vocabulary for team communication
+- Reap the benefits of reusable code
+- Ramp up newcomers to the project quickly
 
 ---------------------------------------
 ## Slides, Resources, and more
