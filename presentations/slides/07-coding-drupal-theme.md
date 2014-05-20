@@ -83,12 +83,34 @@ stylesheets:
 Note: You could also include .css files directly if you're not using a prepprocessor it'll just be more verbose.
 
 ---------------------------------------
-## Adjust ``page.tpl.php``
+## Adjust ``page.html.twig``
 
 - Apply the layout classes from your style guide.
-- Insert hard-coded images.
 
-![tpl.php code](assets/page-tpl-php.png)
+````html
+<div class="page fullwidth">
+  <div id="banner" class="fullwidth"><img alt=" " src="{{ base_path }}themes/domicile/images/domicile-banner.png" /></div>
+  <div id="main" class="fullwidth clearfix">
+    <div id="nav" class="sidebar--nav"> 
+      <a href="{{ front_page }}" title="{{ 'Home'|t }}" rel="home" id="logo"><img alt=" " src="{{ base_path }}themes/domicile/images/at-home.jpg" /></a>
+      {{ page.nav }}
+    </div>
+
+    <div id="featured" class="sidebar--feature">
+      ...
+    </div>
+
+    <div id="content" class="content--main">
+       {{ page.content }}
+       ...
+    </div>
+  </div>
+
+  <div id="copyright" class="fullwidth"> {{ page.copyright }} </div>
+</div>
+````
+
+Note: For D7 this would be page.tpl.php, override template files to apply your classes, especially for layout items.
 
 ---------------------------------------
 ## Launch an MVP Theme
