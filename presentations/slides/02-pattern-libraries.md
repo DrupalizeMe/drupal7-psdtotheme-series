@@ -11,7 +11,7 @@ Note: Although the RENDERED COMPONENT which appears on your site may LOOK unique
 <!-- .slide: data-background-position="top left" -->
 <!-- .slide: data-state="bgimage" -->
 
-Note: A theme for WordPress that provides HTML and CSS fields and leverages the Categories and Body fields in Posts to enable you to create your own pattern library. The theme will render the HTML you provide with the CSS snippet you provide. A great way to keep track of your own favorite patterns.
+Note: The Pears site provides two things: an EXAMPLE of a custom pattern library and a WordPress theme that provides a PLATFORM for making your own pattern library.
 
 ---------------------------------------
 ## [patternlab](http://patternlab.io/)
