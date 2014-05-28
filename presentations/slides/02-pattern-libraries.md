@@ -2,7 +2,7 @@
 
 Your web site is a collection of repeated components / patterns.
 
-Note: although the RENDERED COMPONENT which appear on your site may LOOK unique, their underlying PURPOSE is probably described by a PATTERN which is used on other sites as well. For example: a list of things with pictures. That will show up all over the place. But how we format / decorate / display the list will change a little bit between different web sites.
+Note: Although the RENDERED COMPONENT which appears on your site may LOOK unique, their underlying PURPOSE is probably described by a PATTERN which is used on other sites as well. For example: a list of things with pictures. That will show up all over the place. But how we format / decorate / display the list will change a little bit between different web sites.
 
 ---------------------------------------
 ## [pea.rs](http://pea.rs/)
