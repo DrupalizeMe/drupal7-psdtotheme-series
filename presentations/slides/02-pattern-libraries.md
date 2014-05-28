@@ -20,7 +20,7 @@ Note: The Pears site provides two things: an EXAMPLE of a custom pattern library
 <!-- .slide: data-background-position="top left" -->
 <!-- .slide: data-state="bgimage" -->
 
-Note: a static site generator (PHP + Mustache templates) which has all of your patterns / components broken down. Used for rapid prototyping, but not necessarily your final build. HTML elements = atoms; Sub-components = molecules; Components = organizisms; templates; pages. You might want to use a tool like this to prototype your components, or you might want to develop your own.
+Note: A static site generator (PHP + Mustache templates) which has all of your patterns / components broken down. Used for rapid prototyping, but not necessarily your final build. HTML elements, colors, and fonts = atoms; Sub-components = molecules; Components = organizisms; templates; pages. You might want to use a tool like this to prototype your components, or you might want to develop your own.
 
 ---------------------------------------
 ## [Yahoo Design Pattern Library](http://developer.yahoo.com/ypatterns/)
@@ -29,7 +29,7 @@ Note: a static site generator (PHP + Mustache templates) which has all of your p
 <!-- .slide: data-background-position="top left" -->
 <!-- .slide: data-state="bgimage" -->
 
-Note: An enterprise-level description of patterns and WHY you would want to use them; and how the user is expected to interact with them. Does not include code output (this is stored separatedly). This is starting to get "away" from what we'll be building.
+Note: An enterprise-level description of patterns and WHY you would want to use them; and how the user is expected to interact with them. Does not include code output (this is stored separately). This is starting to get "away" from what we'll be building.
 
 ---------------------------------------
 ## [UI Design Patterns](http://ui-patterns.com/)
@@ -59,7 +59,7 @@ Note: We'll do this as a group. You can't code something without being able to d
 
 <img src="assets/AnggaPutra_team_psd.png" class="noshow" />
 
-Note: the main component is in the middle of the page. They may also identify "edge" components such as the header navigation. Discuss whether or not they think the navigation tabs above the circles are components of their own (there is not a right answer because we don't know enough about the rest of the site).
+Note: The main component is in the middle of the page. They may also identify "edge" components such as the header navigation. Discuss whether or not they think the navigation tabs above the circles are components of their own (there is not a right answer because we don't know enough about the rest of the site).
 
 ------
 ## Portfolio Page
