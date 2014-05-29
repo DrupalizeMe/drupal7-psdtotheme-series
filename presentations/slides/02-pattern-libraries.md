@@ -124,7 +124,7 @@ Note: Point out the sidebar nav has reappeared as a component which might appear
 ------
 ## Summary
 
-- Pattern Libraries range from simple examples of rendered components, to the very "enterprise".
+- Pattern Libraries range from simple examples of rendered components, to the very "enterprise."
 - Using written words to describe designs is the first step in converting a design to code.
-- Components are things we lift out of our web site (as opposed to layouts which are empty, invisible containers, we can fill. Not all styles are components.
-- By recognizing components in your web site, you will be able to apply HTML+CSS patterns faster in your front end work.
+- Components are things we lift out of our web site (as opposed to layouts which are empty, invisible containers, we can fill). Not all styles are components.
+- By recognizing components in your web site, you will be able to apply HTML+CSS patterns faster in your frontend work.
