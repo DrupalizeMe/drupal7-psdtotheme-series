@@ -119,7 +119,7 @@ Note: Point out the sidebar nav has reappeared as a component which might appear
 ------
 ## Activity: Locate and Describe the Components on YOUR Web Site
 
-# www.YOUR-SITE.com
+### www.YOUR-SITE.com
 
 ------
 ## Summary
