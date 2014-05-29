@@ -154,9 +154,20 @@ Many of the common Drupal layout tools allow you to customize the names of class
 Note: Talk about how you can use these moduels to configure the classes used to wrap the content output, it can get a little tedious though esepcially if you need to make changes to class names later.
 
 ----------
-## Example From Views
+## Example from Views
 
 ![views style settings](assets/views-style-settings.jpg)
+
+----------
+## Example from Panels
+
+![panels css properties](assets/panels-css-properties.png)
+![panels css class](assets/panels-css-class.png)
+
+----------
+## Example from Display Suite
+
+![ds title markup](assets/ds-title-markup.png)
 
 ----------
 ## Examples of Conventions<br />Applied to Real Projects
