@@ -26,10 +26,17 @@ Filename: ``base/_base.scss`` or ``_base.scss``
 Sass content:
 
 ````
-$default: #666666; // darker grey
-$heading: #999999; // ligher grey
-$accent1st: #336666; // greenish
+//colors
+$darkergray: #666666;
+$lightergray: #999999;
 
+//type colors
+$default: $darkergray;
+$heading: $lightergray;
+
+body, p, li, dd, td {
+  color: $default;
+}
 h1, h2, h3 {
   color: $heading;
   margin-bottom: 0;
