@@ -37,6 +37,11 @@ Examples:
 - [Drupalize.Me (unfinished)](http://justinharrelllullabot.github.io)
 
 ----------------------------------------------------------------
+## Sample Curated Style Page
+
+![MailChimp Pattern Library](assets/mailchimp-pattern-library.png)
+
+----------------------------------------------------------------
 ## Style Guide: Automated Style Guides
 
 Documentation should be put as close as possible to the place where it will be used. Any time documentation is abstracted, or re-written, and put into a different location it risks becoming out of date. The following automated style guides are still "works in progress" and not necessarily current best practices for compiling style-related documentation.
