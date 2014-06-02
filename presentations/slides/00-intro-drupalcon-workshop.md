@@ -2,7 +2,7 @@
 
 Joe Shindelar // [@eojthebrave](http://twitter.com/eojthebrave) // [joe.shindelar@drupalize.me](mailto:joe.shindelar@drupalize.me)
 
-Amber Matz // [@amberhimes](http://twitter.com/amberhimes) // [amber.matz@drupalize.me](mailto:amber.matz@drupalize.me)
+Amber Matz // [@amberhimesmatz](http://twitter.com/amberhimesmatz) // [amber.matz@drupalize.me](mailto:amber.matz@drupalize.me)
 
 Kyle Hofmeyer // [@khofmeyer](https://twitter.com/khofmeyer) // [kyle.hofmeyer@drupalize.me](mailto:kyle.hofmeyer@drupalize.me)
 
@@ -38,7 +38,8 @@ Note: Summary, this workshop is all about recognizing patterns, naming, and orga
 ---------------------------------------
 ## Slides, Resources, and more
 
-https://github.com/DrupalizeMe/drupal7-psdtotheme-series
+- http://lb.cm/austin-slides
+- https://github.com/DrupalizeMe/drupal7-psdtotheme-series
 
 ---------------------------------------
 ## Grab the Files: http://lb.cm/free-psd
