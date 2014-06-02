@@ -20,7 +20,7 @@ Note:
 2. Create a pattern library for a given design.
 3. Organize styles according to SMACSS conventions.
 4. Write pseudo-code for our styles.
-5. Learn how to apply compontent based development to Drupal.
+5. Learn how to apply component based development to Drupal.
 6. Review sample style guides.
 
 Note: Summary, this workshop is all about recognizing patterns, naming, and organizing things
